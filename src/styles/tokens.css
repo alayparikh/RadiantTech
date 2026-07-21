@@ -1,0 +1,86 @@
+/* Design tokens — the ONLY place raw hex values live. Components use var(--*). */
+:root {
+  /* Brand — deep ink-navy + gold, with an electric "signal" for live-data cues */
+  --ink: #071626; /* darkest — hero/footer ground */
+  --navy-900: #0a1f38;
+  --navy-800: #0d2745;
+  --navy-700: #0f2b4c; /* primary */
+  --navy-600: #16345d;
+  --navy-500: #1e4a7a;
+
+  --gold-400: #ffca4d;
+  --gold-500: #f2b632; /* accent — lines, index numbers, underlines */
+  --gold-600: #b45309; /* accent text on light — passes AA */
+
+  --signal: #2aa0d8; /* electric blue — links, active, "live" dots */
+  --signal-600: #1c7fb0;
+  --signal-700: #155f85;
+
+  /* Neutrals — cool paper, hairline borders */
+  --bg: #f5f7fa;
+  --paper: #f0f3f7;
+  --surface: #ffffff;
+  --surface-2: #eaeff5;
+  --fg: #0d1b2a;
+  --muted-fg: #45566b;
+  --faint-fg: #7688a0;
+  --border: #dde3ec;
+  --border-strong: #c3cdda;
+  --hairline: #e6ebf1;
+
+  --destructive: #dc2626;
+  --success: #15803d;
+  --ring: #2aa0d8;
+
+  /* On-color */
+  --on-navy: #eef4fb;
+  --on-navy-muted: #9fb2ca;
+  --on-navy-faint: #6a7f9c;
+  --on-gold: #071626;
+
+  --hero-scrim: linear-gradient(
+    105deg,
+    rgba(7, 22, 38, 0.95) 0%,
+    rgba(7, 22, 38, 0.82) 42%,
+    rgba(7, 22, 38, 0.5) 100%
+  );
+
+  /* Blueprint grid line color (dark ground) */
+  --blueprint: rgba(120, 170, 220, 0.09);
+  --blueprint-strong: rgba(120, 170, 220, 0.16);
+
+  /* Spacing scale */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-10: 80px;
+  --space-12: 96px;
+  --space-16: 128px;
+
+  /* Radius — sharper, more engineered */
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius: 5px;
+  --radius-lg: 8px;
+
+  /* Shadow — crisp, low-spread */
+  --shadow-sm: 0 1px 2px rgba(7, 22, 38, 0.06);
+  --shadow-md: 0 6px 20px -8px rgba(7, 22, 38, 0.18);
+  --shadow-lg: 0 24px 60px -18px rgba(7, 22, 38, 0.28);
+  --shadow-glow: 0 0 0 1px var(--border), 0 20px 50px -24px rgba(7, 22, 38, 0.4);
+
+  /* Type */
+  --font-display: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --container: 1240px;
+  --container-narrow: 920px;
+  --gutter: clamp(20px, 4vw, 56px);
+
+  --header-h: 76px;
+}

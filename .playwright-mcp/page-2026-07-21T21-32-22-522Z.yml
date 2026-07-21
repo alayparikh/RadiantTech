@@ -1,0 +1,324 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e5]:
+      - link "Radiant Control Systems home" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=e7]
+      - link "(470) 915-0965" [ref=e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=e12]:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=e15] [cursor=pointer]
+        - button "Services" [ref=e19] [cursor=pointer]
+        - button "Industries We Serve" [ref=e23] [cursor=pointer]
+        - link "New Data Features" [ref=e25] [cursor=pointer]:
+          - /url: /new-data
+        - link "Capability Statement" [ref=e26] [cursor=pointer]:
+          - /url: /capability-statement
+        - link "Careers" [ref=e27] [cursor=pointer]:
+          - /url: /careers
+        - link "Contact Us" [ref=e28] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Industrial Automation & Controls
+        - heading "Empowering Industry with Intelligent Control" [level=1] [ref=e34]
+        - paragraph [ref=e35]: Radiant Control Systems engineers control panels, PLC integration, and HMI/SCADA solutions that keep water, power, and production running — reliably, safely, and on spec.
+        - generic [ref=e36]:
+          - link "View Capabilities" [ref=e37] [cursor=pointer]:
+            - /url: /capability-statement
+          - link "Request a Quote" [ref=e40] [cursor=pointer]:
+            - /url: /contact-us
+      - generic [ref=e42]:
+        - link "Control Panels" [ref=e43] [cursor=pointer]:
+          - /url: /control-panels
+        - link "PLC System Integration" [ref=e46] [cursor=pointer]:
+          - /url: /plc-system-integration
+        - link "HMI/SCADA Integration" [ref=e49] [cursor=pointer]:
+          - /url: /hmi-scada-integration
+        - link "Field Service" [ref=e52] [cursor=pointer]:
+          - /url: /field-service
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: Who we are
+        - heading "Intelligent control systems for demanding industries" [level=2] [ref=e60]
+        - paragraph [ref=e61]: Radiant Control Systems streamlines industrial manufacturing and infrastructure through advanced technologies like PLCs and SCADA. From automation and systems integration to information services, validation, and consulting — we pair deep control-engineering experience with a commitment to reliability.
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - heading "Built to code" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Every panel engineered to UL-508A and NEC standards for safety and reliability.
+        - generic [ref=e70]:
+          - heading "Platform-agnostic" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Allen-Bradley, Siemens, Modicon, Ignition, Wonderware — we work in your stack, not ours.
+        - generic [ref=e77]:
+          - heading "On-site when it counts" [level=3] [ref=e82]
+          - paragraph [ref=e83]: Commissioning, troubleshooting, and operator training delivered at your facility.
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]: What we do
+        - heading "Industrial automation & controls services" [level=2] [ref=e88]
+        - paragraph [ref=e89]: Comprehensive offerings designed to streamline and enhance industrial processes through advanced technology integration.
+      - generic [ref=e90]:
+        - link [ref=e92] [cursor=pointer]:
+          - /url: /control-panels
+          - heading "Control Panels" [level=3] [ref=e100]
+          - paragraph [ref=e101]: UL-508A & NEC-compliant panel design and fabrication.
+          - generic [ref=e102]: Learn more
+        - link [ref=e106] [cursor=pointer]:
+          - /url: /plc-system-integration
+          - heading "PLC System Integration" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Programming, commissioning, and integration of leading PLC platforms.
+          - generic [ref=e113]: Learn more
+        - link [ref=e117] [cursor=pointer]:
+          - /url: /hmi-scada-integration
+          - heading "HMI/SCADA Integration" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Real-time monitoring, control, and visualization across your plant.
+          - generic [ref=e132]: Learn more
+        - link [ref=e136] [cursor=pointer]:
+          - /url: /field-service
+          - heading "Field Service" [level=3] [ref=e140]
+          - paragraph [ref=e141]: On-site training, commissioning, troubleshooting, and updates.
+          - generic [ref=e142]: Learn more
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - generic [ref=e149]: 100+
+        - generic [ref=e150]: Years combined experience
+      - generic [ref=e151]:
+        - generic [ref=e152]: "2018"
+        - generic [ref=e153]: Founded
+      - generic [ref=e154]:
+        - generic [ref=e155]: "8"
+        - generic [ref=e156]: Industries served
+      - generic [ref=e157]:
+        - generic [ref=e158]: UL-508A
+        - generic [ref=e159]: Panel standard
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: Industries we serve
+        - heading "Automation across eight sectors" [level=2] [ref=e163]
+        - paragraph [ref=e164]: From lift stations to power plants, we tailor control solutions to the realities of each industry.
+      - generic [ref=e165]:
+        - link [ref=e167] [cursor=pointer]:
+          - /url: /wastewater-treatment
+          - img "Wastewater automation" [ref=e169]:
+            - generic [ref=e171]:
+              - generic [ref=e172]: Image
+              - text: Wastewater automation
+              - generic [ref=e173]: wastewater · 600×400
+          - heading "Wastewater" [level=3] [ref=e175]
+        - link [ref=e181] [cursor=pointer]:
+          - /url: /aggregate
+          - img "Aggregate automation" [ref=e183]
+          - heading "Aggregate" [level=3] [ref=e185]
+        - link [ref=e191] [cursor=pointer]:
+          - /url: /automobiles
+          - img "Automobiles automation" [ref=e193]
+          - heading "Automobiles" [level=3] [ref=e195]
+        - link [ref=e201] [cursor=pointer]:
+          - /url: /logistics
+          - img "Logistics automation" [ref=e203]
+          - heading "Logistics" [level=3] [ref=e205]
+        - link [ref=e211] [cursor=pointer]:
+          - /url: /food-beverage
+          - img "Food & Beverage automation" [ref=e213]
+          - heading "Food & Beverage" [level=3] [ref=e215]
+        - link [ref=e221] [cursor=pointer]:
+          - /url: /power-plant
+          - img "Power Plant automation" [ref=e223]
+          - heading "Power Plant" [level=3] [ref=e225]
+        - link [ref=e231] [cursor=pointer]:
+          - /url: /oil-gas
+          - img "Oil & Gas automation" [ref=e233]
+          - heading "Oil & Gas" [level=3] [ref=e235]
+        - link [ref=e241] [cursor=pointer]:
+          - /url: /manufacturing
+          - img "Manufacturing automation" [ref=e243]
+          - heading "Manufacturing" [level=3] [ref=e245]
+    - generic [ref=e252]:
+      - paragraph [ref=e253]: Trusted by leading organizations
+      - generic [ref=e254]:
+        - img "Client logo"
+        - img "Tesla"
+        - img "Fulton County"
+        - img "Amtech"
+        - img "Client logo"
+    - generic [ref=e256]:
+      - generic [ref=e257]:
+        - heading "Get started on your automation journey today" [level=2] [ref=e258]
+        - paragraph [ref=e259]: Whether you need a UL-508A panel, a PLC upgrade, or on-site commissioning — our engineers are ready to help.
+      - generic [ref=e260]:
+        - link "Contact Us" [ref=e261] [cursor=pointer]:
+          - /url: /contact-us
+        - link "(470) 915-0965" [ref=e262] [cursor=pointer]:
+          - /url: tel:+14709150965
+    - generic [ref=e265]:
+      - heading "Common questions" [level=2] [ref=e266]
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - heading [level=3] [ref=e269]:
+            - button "What does Radiant Control Systems do?" [expanded] [ref=e270] [cursor=pointer]
+          - region [ref=e273]:
+            - paragraph [ref=e274]: Radiant Control Systems is an industrial automation and controls integrator in Duluth, GA. We design UL-508A control panels, integrate PLC and HMI/SCADA systems, and provide on-site field service for water, power, oil & gas, food & beverage, and manufacturing clients.
+        - generic [ref=e275]:
+          - heading [level=3] [ref=e276]:
+            - button "Where is Radiant Control Systems located?" [ref=e277] [cursor=pointer]
+          - region:
+            - paragraph [ref=e280]: "Radiant is based at 6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097, serving metro Atlanta and clients across the United States."
+        - generic [ref=e281]:
+          - heading [level=3] [ref=e282]:
+            - button "Is Radiant Control Systems certified?" [ref=e283] [cursor=pointer]
+          - region:
+            - paragraph [ref=e286]: Yes. Radiant is DBE and MBE certified, with GDOT vendor registration, NAICS codes 541511/541512/541330, CAGE code 10NB0, and UEI S5L4B99AGYX3.
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]: Get in touch
+          - heading "Contact Us" [level=2] [ref=e292]
+          - paragraph [ref=e293]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=e294]:
+          - listitem [ref=e295]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=e300] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=e301]:
+            - link "(470) 915-0965" [ref=e305] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=e306]:
+            - link "info@radiantcontrolsystems.com" [ref=e311] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=e312]:
+            - generic [ref=e317]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Name
+            - textbox "Name" [ref=e323]
+          - generic [ref=e324]:
+            - generic [ref=e325]: Contact Number
+            - textbox "Contact Number" [ref=e326]
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - generic [ref=e329]: Email
+            - textbox "Email" [ref=e330]
+          - generic [ref=e331]:
+            - generic [ref=e332]: Service
+            - combobox "Service" [ref=e333]:
+              - option "Select a service" [selected]
+              - option "Control Panels"
+              - option "PLC System Integration"
+              - option "HMI/SCADA Integration"
+              - option "Field Service"
+              - option "Other / Not sure"
+        - generic [ref=e334]:
+          - generic [ref=e335]: Message
+          - textbox "Message" [ref=e336]:
+            - /placeholder: Tell us about your project or challenge…
+        - button "Send a Message" [ref=e337] [cursor=pointer]
+  - contentinfo [ref=e341]:
+    - generic [ref=e342]:
+      - generic [ref=e343]:
+        - img "Radiant Control Systems" [ref=e344]
+        - paragraph [ref=e345]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=e346]:
+          - link "Facebook" [ref=e347] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=e350] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=e354] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=e359]:
+        - heading "Services" [level=4] [ref=e360]
+        - list [ref=e361]:
+          - listitem [ref=e362]:
+            - link "Control Panels" [ref=e363] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=e364]:
+            - link "PLC System Integration" [ref=e365] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=e366]:
+            - link "HMI/SCADA Integration" [ref=e367] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=e368]:
+            - link "Field Service" [ref=e369] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=e370]:
+        - heading "Industries" [level=4] [ref=e371]
+        - list [ref=e372]:
+          - listitem [ref=e373]:
+            - link "Wastewater" [ref=e374] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=e375]:
+            - link "Aggregate" [ref=e376] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=e377]:
+            - link "Automobiles" [ref=e378] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=e379]:
+            - link "Logistics" [ref=e380] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=e381]:
+            - link "Food & Beverage" [ref=e382] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=e383]:
+            - link "Power Plant" [ref=e384] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=e385]:
+            - link "Oil & Gas" [ref=e386] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=e387]:
+            - link "Manufacturing" [ref=e388] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=e389]:
+        - heading "Company" [level=4] [ref=e390]
+        - list [ref=e391]:
+          - listitem [ref=e392]:
+            - link "About Us" [ref=e393] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=e394]:
+            - link "CEO Desk" [ref=e395] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=e396]:
+            - link "Capability Statement" [ref=e397] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=e398]:
+            - link "New Data Features" [ref=e399] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=e400]:
+            - link "Careers" [ref=e401] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=e402]:
+            - link "Blog" [ref=e403] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e404]:
+            - link "Contact Us" [ref=e405] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=e406]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=e407]
+        - list [ref=e408]:
+          - listitem [ref=e409]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=e413] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=e414]:
+            - link "(470) 915-0965" [ref=e417] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=e418]:
+            - link "info@radiantcontrolsystems.com" [ref=e422] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=e423]:
+          - img "MBE Certified" [ref=e424]
+          - img "DBE Certified" [ref=e425]
+          - img "NMSDC Minority Business Enterprise" [ref=e426]
+    - generic [ref=e427]:
+      - strong [ref=e429]: DBE & MBE Certified
+      - generic [ref=e430]: "GDOT Vendor ID: 19325"
+      - generic [ref=e431]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=e432]: "GMDC: AT249607"
+      - generic [ref=e433]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=e434]: "CAGE: 10NB0"
+      - generic [ref=e435]: "UEI: S5L4B99AGYX3"
+      - generic [ref=e436]: "E-Verify: 2293567"
+    - generic [ref=e437]: © 2026 Radiant Control Systems LLC. All rights reserved.

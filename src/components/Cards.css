@@ -1,0 +1,182 @@
+/* ---- Service card ---- */
+.scard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  padding: var(--space-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 260ms ease,
+    border-color 260ms ease;
+  position: relative;
+  overflow: hidden;
+}
+.scard::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 3px;
+  width: 0;
+  background: var(--gold-500);
+  transition: width 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.scard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--border-strong);
+}
+.scard:hover::before {
+  width: 100%;
+}
+.scard__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.scard__idx {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--faint-fg);
+  letter-spacing: 0.05em;
+}
+.scard__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: var(--navy-700);
+  color: #fff;
+  transition: background 240ms ease;
+}
+.scard:hover .scard__icon {
+  background: var(--gold-500);
+  color: var(--on-gold);
+}
+.scard h3 {
+  color: var(--navy-800);
+  margin-top: 4px;
+}
+.scard p {
+  font-size: 0.92rem;
+  flex-grow: 1;
+}
+.scard__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--signal-600);
+}
+.scard__more svg {
+  transition: transform 240ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.scard:hover .scard__more svg {
+  transform: translateX(4px);
+}
+
+/* ---- Industry card ---- */
+.icard {
+  display: block;
+  height: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 260ms ease;
+}
+.icard:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+.icard__media {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+.icard__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.icard:hover .icard__media img {
+  transform: scale(1.06);
+}
+.icard__tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(7, 22, 38, 0.7);
+  backdrop-filter: blur(4px);
+  padding: 3px 9px;
+  border-radius: var(--radius-xs);
+  letter-spacing: 0.08em;
+}
+.icard__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3);
+  border-top: 2px solid transparent;
+  transition: border-color 240ms ease;
+}
+.icard:hover .icard__body {
+  border-top-color: var(--gold-500);
+}
+.icard__body h3 {
+  font-size: 1.08rem;
+  color: var(--navy-800);
+}
+.icard__arrow {
+  display: inline-flex;
+  color: var(--gold-600);
+  transition: transform 240ms ease;
+}
+.icard:hover .icard__arrow {
+  transform: translate(3px, -3px);
+}
+
+/* ---- Feature card ---- */
+.fcard {
+  display: flex;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 220ms ease, box-shadow 220ms ease;
+}
+.fcard:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-md);
+}
+.fcard__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  color: var(--signal-600);
+}
+.fcard h3 {
+  font-size: 1.02rem;
+  margin-bottom: 4px;
+}
+.fcard p {
+  font-size: 0.9rem;
+}

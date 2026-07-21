@@ -1,0 +1,122 @@
+.ftr {
+  background: var(--navy-900);
+  color: var(--on-navy-muted);
+  margin-top: var(--space-12);
+}
+.ftr__top {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1.6fr;
+  gap: var(--space-4);
+  padding-block: var(--space-8);
+}
+.ftr__brand img {
+  height: 50px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
+}
+.ftr__tagline {
+  margin-top: var(--space-2);
+  color: var(--on-navy-muted);
+  font-size: 0.92rem;
+  max-width: 30ch;
+}
+.ftr__social {
+  display: flex;
+  gap: 10px;
+  margin-top: var(--space-3);
+}
+.ftr__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  transition: background 160ms ease, transform 160ms ease;
+}
+.ftr__social a:hover {
+  background: var(--gold-500);
+  color: var(--on-gold);
+  transform: translateY(-2px);
+}
+
+.ftr__col h4 {
+  color: #fff;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-2);
+}
+.ftr__col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.ftr__col a {
+  color: var(--on-navy-muted);
+  font-size: 0.9rem;
+}
+.ftr__col a:hover {
+  color: var(--gold-500);
+}
+
+.ftr__contact ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+}
+.ftr__contact svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: var(--gold-500);
+}
+.ftr__certs {
+  display: flex;
+  gap: 10px;
+  margin-top: var(--space-3);
+}
+.ftr__certs img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: var(--radius-sm);
+  padding: 5px;
+}
+
+.ftr__creds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  padding-block: var(--space-3);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.78rem;
+  color: var(--faint-fg);
+}
+.ftr__creds strong {
+  color: var(--gold-500);
+}
+
+.ftr__bottom {
+  background: rgba(0, 0, 0, 0.28);
+  padding-block: var(--space-2);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 960px) {
+  .ftr__top {
+    grid-template-columns: 1fr 1fr;
+  }
+  .ftr__brand {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 560px) {
+  .ftr__top {
+    grid-template-columns: 1fr;
+  }
+}

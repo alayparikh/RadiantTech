@@ -1,0 +1,158 @@
+.cap__actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--space-4);
+}
+.cap__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+.cap__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+}
+.cap__wide {
+  margin-bottom: var(--space-3);
+}
+.cap__h {
+  font-size: 1.25rem;
+  color: var(--navy-800);
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
+  border-bottom: 2px solid var(--gold-500);
+}
+.cap__list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+.cap__list--accent li {
+  position: relative;
+  padding-left: 24px;
+  font-weight: 600;
+  color: var(--navy-700);
+}
+.cap__list--accent li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--gold-500);
+}
+
+.cap__spec {
+  display: grid;
+  gap: var(--space-3);
+}
+.cap__spec > div {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px dashed var(--border);
+}
+.cap__spec > div:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.cap__spec dt {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--navy-800);
+}
+.cap__spec dd {
+  color: var(--muted-fg);
+}
+.cap__inline {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+.cap__inline li {
+  position: relative;
+  padding-left: 16px;
+}
+.cap__inline li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--gold-600);
+  font-weight: 700;
+}
+
+.cap__creds {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.cap__cred {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: var(--space-2) var(--space-3);
+  background: var(--surface);
+}
+.cap__cred-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--faint-fg);
+}
+.cap__cred-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--navy-800);
+}
+.cap__note {
+  margin-top: var(--space-3);
+  font-weight: 600;
+  color: var(--navy-700);
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .cap__grid {
+    grid-template-columns: 1fr;
+  }
+  .cap__spec > div {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .cap__creds {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---- Print: procurement officers print this page ---- */
+@media print {
+  .hdr,
+  .ftr,
+  .phero,
+  .no-print,
+  .cap__actions {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  .cap__card {
+    box-shadow: none;
+    border: 1px solid #999;
+    break-inside: avoid;
+  }
+  .cap__h {
+    color: #000;
+  }
+}

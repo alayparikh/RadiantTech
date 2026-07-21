@@ -1,0 +1,327 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "AP." [ref=e5]:
+        - /url: "#home"
+      - navigation [ref=e6]:
+        - link "Home" [ref=e7]:
+          - /url: "#home"
+        - link "About" [ref=e8]:
+          - /url: "#about"
+        - link "Skills" [ref=e9]:
+          - /url: "#skills"
+        - link "Experience" [ref=e10]:
+          - /url: "#experience"
+        - link "Projects" [ref=e11]:
+          - /url: "#projects"
+        - link "Contact" [ref=e12]:
+          - /url: "#contact"
+      - link "Hire Me?" [ref=e13]:
+        - /url: "#contact"
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - paragraph [ref=e20]: Available for opportunities
+          - heading "Alay Parikh" [level=1] [ref=e21]:
+            - generic [ref=e22]: Alay
+            - generic [ref=e23]: Parikh
+          - paragraph [ref=e26]: Hands-on Software Engineer with 5+ years designing scalable backend services, modern web applications, and AI-powered platforms across AWS, GCP, Java/Spring Boot, Python, React, SQL, RAG, and LLM agents.
+          - generic [ref=e27]:
+            - link "Get in Touch" [ref=e28]:
+              - /url: mailto:alayparikh98@gmail.com
+            - link "View Projects" [ref=e29]:
+              - /url: "#projects"
+          - generic [ref=e30]:
+            - link "GitHub" [ref=e31]:
+              - /url: https://github.com/alayparikh
+              - text: GH
+            - link "LinkedIn" [ref=e32]:
+              - /url: https://linkedin.com/in/alayparikh
+              - text: in
+            - link "Email" [ref=e33]:
+              - /url: mailto:alayparikh98@gmail.com
+              - text: "@"
+        - complementary [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - strong [ref=e37]: 5+
+              - generic [ref=e38]: Years Experience
+            - generic [ref=e39]:
+              - strong [ref=e40]: "1000"
+              - generic [ref=e41]: Locations Supported
+            - generic [ref=e42]:
+              - strong [ref=e43]: RAG
+              - generic [ref=e44]: Enterprise AI Systems
+            - generic [ref=e45]:
+              - strong [ref=e46]: AWS
+              - generic [ref=e47]: Cloud-Native Delivery
+          - generic [ref=e48]:
+            - generic [ref=e49]: Java
+            - generic [ref=e50]: Spring Boot
+            - generic [ref=e51]: Python
+            - generic [ref=e52]: React
+            - generic [ref=e53]: SQL
+            - generic [ref=e54]: LLM Agents
+      - link "Scroll ↓" [ref=e55]:
+        - /url: "#about"
+        - generic [ref=e56]: Scroll
+        - generic [ref=e57]: ↓
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: About Me
+        - heading "Building reliable software and intelligent systems" [level=2] [ref=e62]
+        - paragraph [ref=e63]: I work across the full software lifecycle, from requirements and architecture to implementation, testing, deployment, documentation, and production support.
+        - generic [ref=e64]:
+          - generic [ref=e65]: Atlanta, GA
+          - generic [ref=e66]: Open to Remote
+          - generic [ref=e67]: 5+ YOE
+          - generic [ref=e68]: MS Computer Science
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - paragraph [ref=e71]:
+            - text: At
+            - strong [ref=e72]: Mythics
+            - text: ", I own backend architecture and development for Java/Spring Boot microservices powering transaction-heavy Order to Cash workflows. I design event-driven integrations, relational data models, Terraform-backed CI/CD, and AI retrieval layers for operational intelligence."
+          - paragraph [ref=e73]:
+            - text: At
+            - strong [ref=e74]: Amazon Web Services
+            - text: ", I built IRIS, a Java/Spring service that detected infrastructure configuration gaps at build time across isolated and advanced AWS regions, improving regional launch reliability and preventing production failures."
+          - paragraph [ref=e75]: "I bring production engineering instincts to AI: RAG pipelines over SQL-backed enterprise data, hybrid retrieval, tool-calling agents, structured response schemas, and permission-scoped execution for safer AI interaction with operational systems."
+        - complementary [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: "degree:"
+            - paragraph [ref=e79]: M.S. Computer Science
+          - generic [ref=e80]:
+            - generic [ref=e81]: "school:"
+            - paragraph [ref=e82]: University of Texas at Arlington
+          - generic [ref=e83]:
+            - generic [ref=e84]: "email:"
+            - paragraph [ref=e85]: alayparikh98@gmail.com
+          - generic [ref=e86]:
+            - generic [ref=e87]: "phone:"
+            - paragraph [ref=e88]: +1 (408) 483-1223
+          - generic [ref=e89]:
+            - generic [ref=e90]: "location:"
+            - paragraph [ref=e91]: Atlanta, GA
+      - generic [ref=e92]:
+        - article [ref=e93]:
+          - generic [ref=e94]: "01"
+          - heading "Backend Architecture" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Java, Spring Boot, RESTful APIs, microservices, object-oriented design, LLD, API contracts, and high-throughput transactional workflows.
+        - article [ref=e97]:
+          - generic [ref=e98]: "02"
+          - heading "Cloud Platforms" [level=3] [ref=e99]
+          - paragraph [ref=e100]: AWS Lambda, SNS, SQS, ECS, EKS, RDS, CloudFormation, GCP, Docker, Kubernetes, Terraform, and CI/CD automation.
+        - article [ref=e101]:
+          - generic [ref=e102]: "03"
+          - heading "AI Systems" [level=3] [ref=e103]
+          - paragraph [ref=e104]: RAG architecture, LLM agents, vector databases, embeddings, semantic search, prompt engineering, MCP, Codex, and Claude Code.
+        - article [ref=e105]:
+          - generic [ref=e106]: "04"
+          - heading "Reliability" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Observability dashboards, production support, incident triage, root cause analysis, operational telemetry, CloudWatch, Splunk, and long-term stability fixes.
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]: Technical Skills
+        - heading "SWE and AI stack proficiency" [level=2] [ref=e113]
+        - paragraph [ref=e114]: Production experience spanning backend services, cloud infrastructure, AI retrieval systems, data persistence, DevOps, observability, and testing.
+      - generic [ref=e115]:
+        - article [ref=e116]:
+          - heading "Languages & Frameworks" [level=3] [ref=e117]
+          - generic [ref=e118]: Java / Spring Boot
+          - generic [ref=e120]: Python / Flask
+          - generic [ref=e122]: JavaScript / React
+          - generic [ref=e124]: REST APIs / Microservices
+        - article [ref=e126]:
+          - heading "Cloud & Infrastructure" [level=3] [ref=e127]
+          - generic [ref=e128]: AWS Lambda / SNS / SQS / RDS
+          - generic [ref=e130]: Docker / Kubernetes
+          - generic [ref=e132]: Terraform / CloudFormation
+          - generic [ref=e134]: GCP / Azure / Vercel
+        - article [ref=e136]:
+          - heading "AI & Data Systems" [level=3] [ref=e137]
+          - generic [ref=e138]: RAG Architecture
+          - generic [ref=e140]: LLM Agents / Tool Calling
+          - generic [ref=e142]: Vector DBs / Embeddings
+          - generic [ref=e144]: Semantic Search / Prompting
+        - article [ref=e146]:
+          - heading "Data, DevOps & Quality" [level=3] [ref=e147]
+          - generic [ref=e148]: Advanced SQL / Query Optimization
+          - generic [ref=e150]: Jenkins / GitHub Actions / GitLab
+          - generic [ref=e152]: JUnit / Selenium / API Testing
+          - generic [ref=e154]: CloudWatch / Splunk / BI
+      - generic [ref=e156]:
+        - generic [ref=e157]: Java
+        - generic [ref=e158]: Python
+        - generic [ref=e159]: React
+        - generic [ref=e160]: Node.js
+        - generic [ref=e161]: Next.js
+        - generic [ref=e162]: Amazon RDS
+        - generic [ref=e163]: MySQL
+        - generic [ref=e164]: BigQuery
+        - generic [ref=e165]: MongoDB
+        - generic [ref=e166]: Terraform
+        - generic [ref=e167]: Jira
+        - generic [ref=e168]: Tableau
+        - generic [ref=e169]: Power BI
+        - generic [ref=e170]: GenAI
+        - generic [ref=e171]: MCP
+        - generic [ref=e172]: Codex
+        - generic [ref=e173]: Claude Code
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: Experience
+        - heading "Career Timeline" [level=2] [ref=e178]
+        - paragraph [ref=e179]: 5+ years of progressive software engineering experience across enterprise platforms, AWS services, distributed systems, and AI-enabled workflows.
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - generic [ref=e182]: Work Experience
+          - article [ref=e183]:
+            - button "M Software Engineer Mythics · Atlanta, GA Mar 2024 - Present" [expanded] [ref=e184]:
+              - generic [ref=e185]: M
+              - generic [ref=e186]:
+                - generic [ref=e187]: Software Engineer
+                - generic [ref=e188]: Mythics · Atlanta, GA
+              - emphasis [ref=e189]: Mar 2024 - Present
+            - generic [ref=e190]:
+              - list [ref=e191]:
+                - listitem [ref=e192]: Owned backend architecture and Java/Spring Boot microservices for a transaction-heavy Order to Cash platform supporting 1,000 restaurant locations.
+                - listitem [ref=e193]: Designed event-driven cart, checkout, inventory validation, and shipment workflows using AWS SNS and Lambda.
+                - listitem [ref=e194]: Implemented transactionally consistent Amazon RDS models for order, shipment, billing, and financial processing reliability.
+                - listitem [ref=e195]: Built Terraform-based CI/CD pipelines with Git reviews, pull requests, automated quality checks, testing, and deployments.
+                - listitem [ref=e196]: Designed RAG knowledge retrieval and hybrid pipelines combining vector embeddings with SQL joins for structured enterprise queries.
+                - listitem [ref=e197]: Built LLM-powered agents that automate investigations by correlating service logs, telemetry, and relational datasets.
+              - generic [ref=e198]:
+                - generic [ref=e199]: Java
+                - generic [ref=e200]: Spring Boot
+                - generic [ref=e201]: AWS
+                - generic [ref=e202]: RAG
+                - generic [ref=e203]: Terraform
+                - generic [ref=e204]: LLM Agents
+          - article [ref=e205]:
+            - button "A Software Development Engineer Amazon Web Services · Atlanta, GA Sep 2022 - Mar 2024" [ref=e206]:
+              - generic [ref=e207]: A
+              - generic [ref=e208]:
+                - generic [ref=e209]: Software Development Engineer
+                - generic [ref=e210]: Amazon Web Services · Atlanta, GA
+              - emphasis [ref=e211]: Sep 2022 - Mar 2024
+          - article [ref=e212]:
+            - button "I Systems Engineer Infosys Limited USA · Remote Jan 2021 - Sep 2022" [ref=e213]:
+              - generic [ref=e214]: I
+              - generic [ref=e215]:
+                - generic [ref=e216]: Systems Engineer
+                - generic [ref=e217]: Infosys Limited USA · Remote
+              - emphasis [ref=e218]: Jan 2021 - Sep 2022
+          - article [ref=e219]:
+            - button "T Software Engineer Terminal Trend · Ahmedabad, GJ Jan 2019 - Dec 2019" [ref=e220]:
+              - generic [ref=e221]: T
+              - generic [ref=e222]:
+                - generic [ref=e223]: Software Engineer
+                - generic [ref=e224]: Terminal Trend · Ahmedabad, GJ
+              - emphasis [ref=e225]: Jan 2019 - Dec 2019
+        - complementary [ref=e226]:
+          - generic [ref=e227]: Education
+          - generic [ref=e228]:
+            - generic [ref=e229]: Graduate
+            - heading "M.S. Computer Science" [level=3] [ref=e230]
+            - paragraph [ref=e231]: University of Texas at Arlington
+            - text: Dec 2021 · USA
+          - generic [ref=e232]:
+            - paragraph [ref=e233]: Full resume details are represented throughout this portfolio with a SWE/AI focus.
+            - link "Request Resume" [ref=e234]:
+              - /url: mailto:alayparikh98@gmail.com?subject=Resume%20Request%20-%20Alay%20Parikh
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]: Projects
+          - heading "AI Systems & Intelligent Platform Engineering" [level=2] [ref=e240]
+        - link "GitHub" [ref=e241]:
+          - /url: https://github.com/alayparikh
+      - generic [ref=e242]:
+        - article [ref=e243]:
+          - generic [ref=e244]: AI
+          - heading "Enterprise RAG Pipelines" [level=3] [ref=e245]
+          - paragraph [ref=e246]: Built RAG pipelines integrating relational databases, service logs, and operational documentation so teams can query enterprise knowledge through natural language.
+          - generic [ref=e247]:
+            - generic [ref=e248]: RAG
+            - generic [ref=e249]: SQL
+            - generic [ref=e250]: Embeddings
+            - generic [ref=e251]: Docs
+        - article [ref=e252]:
+          - generic [ref=e253]: SQL
+          - heading "Schema-Aware Retrieval" [level=3] [ref=e254]
+          - paragraph [ref=e255]: Implemented schema-aware retrieval and natural-language-to-SQL workflows for transactional and financial questions requiring structured reasoning.
+          - generic [ref=e256]:
+            - generic [ref=e257]: NL2SQL
+            - generic [ref=e258]: Joins
+            - generic [ref=e259]: RDS
+            - generic [ref=e260]: Query Optimization
+        - article [ref=e261]:
+          - generic [ref=e262]: AG
+          - heading "Agentic Investigation Workflows" [level=3] [ref=e263]
+          - paragraph [ref=e264]: Designed LLM agent orchestration using tool calling, structured response schemas, and telemetry correlation for automated operational investigations.
+          - generic [ref=e265]:
+            - generic [ref=e266]: LLM Agents
+            - generic [ref=e267]: Tool Calling
+            - generic [ref=e268]: Telemetry
+            - generic [ref=e269]: Schemas
+        - article [ref=e270]:
+          - generic [ref=e271]: SEC
+          - heading "Permission-Scoped AI Execution" [level=3] [ref=e272]
+          - paragraph [ref=e273]: Implemented permission-scoped execution patterns that keep AI interactions safer when touching production-adjacent systems and enterprise data.
+          - generic [ref=e274]:
+            - generic [ref=e275]: Access Control
+            - generic [ref=e276]: MCP
+            - generic [ref=e277]: Safety
+            - generic [ref=e278]: GenAI
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - generic [ref=e282]: Contact
+        - heading "Let's Work Together" [level=2] [ref=e283]
+        - paragraph [ref=e284]: Open to software engineering and AI platform roles, especially work involving backend systems, cloud architecture, RAG, LLM agents, and production reliability.
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - heading "Available for new opportunities" [level=3] [ref=e287]
+          - paragraph [ref=e288]: I bring practical backend depth and AI systems experience to teams shipping reliable, intelligent production software.
+          - link "@ Email alayparikh98@gmail.com" [ref=e289]:
+            - /url: mailto:alayparikh98@gmail.com
+            - generic [ref=e290]: "@"
+            - generic [ref=e291]: Email
+            - emphasis [ref=e292]: alayparikh98@gmail.com
+          - link "# Phone +1 (408) 483-1223" [ref=e293]:
+            - /url: tel:+14084831223
+            - generic [ref=e294]: "#"
+            - generic [ref=e295]: Phone
+            - emphasis [ref=e296]: +1 (408) 483-1223
+          - generic [ref=e297]:
+            - generic [ref=e298]: "*"
+            - generic [ref=e299]: Location
+            - emphasis [ref=e300]: Atlanta, GA
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - generic [ref=e303]:
+              - text: Name
+              - textbox "Name" [ref=e304]:
+                - /placeholder: Your name
+            - generic [ref=e305]:
+              - text: Email
+              - textbox "Email" [ref=e306]:
+                - /placeholder: your@email.com
+          - generic [ref=e307]:
+            - text: Subject
+            - textbox "Subject" [ref=e308]:
+              - /placeholder: What's this about?
+          - generic [ref=e309]:
+            - text: Message
+            - textbox "Message" [ref=e310]:
+              - /placeholder: Tell me about your role, project, or opportunity...
+          - button "Send Message" [ref=e311]
+  - contentinfo [ref=e312]:
+    - generic [ref=e313]:
+      - paragraph [ref=e314]: © 2026 Alay Parikh. Software Engineer & AI Portfolio.
+      - generic [ref=e315]:
+        - link "GitHub" [ref=e316]:
+          - /url: https://github.com/alayparikh
+        - link "LinkedIn" [ref=e317]:
+          - /url: https://linkedin.com/in/alayparikh

@@ -1,0 +1,12 @@
+{
+  "name": "Radiant Control Systems",
+  "short_name": "Radiant",
+  "description": "Industrial automation and controls: UL-508A panels, PLC & HMI/SCADA integration, field service.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F2B4C",
+  "theme_color": "#0F2B4C",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

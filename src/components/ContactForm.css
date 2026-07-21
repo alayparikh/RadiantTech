@@ -1,0 +1,85 @@
+.cform {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.cform__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+.cform__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cform__field label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--navy-800);
+}
+.cform input,
+.cform select,
+.cform textarea {
+  width: 100%;
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--fg);
+  background: var(--surface);
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.cform input:focus,
+.cform select:focus,
+.cform textarea:focus {
+  outline: none;
+  border-color: var(--navy-700);
+  box-shadow: 0 0 0 3px rgba(15, 43, 76, 0.12);
+}
+.cform textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.cform [aria-invalid='true'] {
+  border-color: var(--destructive);
+}
+.cform__err {
+  font-size: 0.82rem;
+  color: var(--destructive);
+  font-weight: 500;
+}
+.cform__submit {
+  align-self: flex-start;
+  margin-top: var(--space-1);
+}
+.cform__submit:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+.spin {
+  animation: cform-spin 800ms linear infinite;
+}
+@keyframes cform-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cform--sent {
+  align-items: center;
+  text-align: center;
+  gap: var(--space-2);
+  padding: var(--space-4) 0;
+}
+.cform__check {
+  color: var(--success);
+}
+
+@media (max-width: 560px) {
+  .cform__row {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,219 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e3]:
+    - link "Skip to content" [ref=f4e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f4e5]:
+      - link "Radiant Control Systems home" [ref=f4e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=f4e7]
+      - link "(470) 915-0965" [ref=f4e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=f4e11]:
+        - link "Home" [ref=f4e12] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=f4e14] [cursor=pointer]
+        - button "Services" [ref=f4e17] [cursor=pointer]
+        - button "Industries We Serve" [ref=f4e20] [cursor=pointer]
+        - link "New Data Features" [ref=f4e22] [cursor=pointer]:
+          - /url: /new-data
+        - link "Capability Statement" [ref=f4e23] [cursor=pointer]:
+          - /url: /capability-statement
+        - link "Careers" [ref=f4e24] [cursor=pointer]:
+          - /url: /careers
+        - link "Contact Us" [ref=f4e25] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f4e26]:
+    - generic [ref=f4e29]:
+      - navigation "Breadcrumb" [ref=f4e30]:
+        - link "Home" [ref=f4e31] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f4e32]: PLC System Integration
+      - heading "PLC System Integration" [level=1] [ref=f4e36]
+      - paragraph [ref=f4e37]: Programming, commissioning, and integration of leading PLC platforms.
+    - generic [ref=f4e40]:
+      - generic [ref=f4e41]: Overview
+      - heading "Expertise in leading PLC platforms" [level=2] [ref=f4e42]
+      - paragraph [ref=f4e43]: PLC system integration involves the seamless incorporation of Programmable Logic Controllers into industrial processes, ensuring efficient automation and control. Our expertise spans initial design to programming and commissioning, adhering to industry standards for reliability and safety.
+    - generic [ref=f4e46]:
+      - img "PLC System Integration at Radiant Control Systems" [ref=f4e48]
+      - generic [ref=f4e49]:
+        - generic [ref=f4e50]: Capabilities
+        - heading "Expertise in leading PLC platforms" [level=2] [ref=f4e51]
+        - generic [ref=f4e52]:
+          - paragraph [ref=f4e53]: PLC system integration is the seamless incorporation of Programmable Logic Controllers into industrial processes to deliver reliable automation and control — from initial design through programming and commissioning.
+          - list [ref=f4e54]:
+            - listitem [ref=f4e55]: Rockwell Allen-Bradley
+            - listitem [ref=f4e56]: Siemens S7
+            - listitem [ref=f4e57]: Modicon
+            - listitem [ref=f4e58]: Automation Direct
+    - generic [ref=f4e60]:
+      - generic [ref=f4e61]:
+        - heading "Need plc system integration for your facility?" [level=2] [ref=f4e62]
+        - paragraph [ref=f4e63]: Talk to a controls engineer about your process, timeline, and platform.
+      - generic [ref=f4e64]:
+        - link "Contact Us" [ref=f4e65] [cursor=pointer]:
+          - /url: /contact-us
+        - link "(470) 915-0965" [ref=f4e66] [cursor=pointer]:
+          - /url: tel:+14709150965
+    - generic [ref=f4e69]:
+      - heading "PLC System Integration — FAQ" [level=2] [ref=f4e70]
+      - generic [ref=f4e71]:
+        - generic [ref=f4e72]:
+          - heading [level=3] [ref=f4e73]:
+            - button "Which PLC brands does Radiant program?" [expanded] [ref=f4e74] [cursor=pointer]
+          - region [ref=f4e77]:
+            - paragraph [ref=f4e78]: Radiant integrates and programs Rockwell Allen-Bradley (ControlLogix, CompactLogix, MicroLogix, SLC 500, PLC5), Siemens S5/S7 and TIA Portal, Schneider/Modicon, GE Intelligent Platforms, Automation Direct, and Mitsubishi.
+        - generic [ref=f4e79]:
+          - heading [level=3] [ref=f4e80]:
+            - button "What does PLC system integration include?" [ref=f4e81] [cursor=pointer]
+          - region:
+            - paragraph [ref=f4e84]: It spans design, programming, commissioning, and startup — customizing PLC logic to optimize functionality, improve safety, and increase operational efficiency.
+    - generic [ref=f4e86]:
+      - generic [ref=f4e87]:
+        - generic [ref=f4e88]:
+          - generic [ref=f4e89]: Get in touch
+          - heading "Contact Us" [level=2] [ref=f4e90]
+          - paragraph [ref=f4e91]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=f4e92]:
+          - listitem [ref=f4e93]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=f4e98] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=f4e99]:
+            - link "(470) 915-0965" [ref=f4e103] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f4e104]:
+            - link "info@radiantcontrolsystems.com" [ref=f4e109] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=f4e110]:
+            - generic [ref=f4e115]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - generic [ref=f4e117]:
+        - generic [ref=f4e118]:
+          - generic [ref=f4e119]:
+            - generic [ref=f4e120]: Name
+            - textbox "Name" [ref=f4e121]
+          - generic [ref=f4e122]:
+            - generic [ref=f4e123]: Contact Number
+            - textbox "Contact Number" [ref=f4e124]
+        - generic [ref=f4e125]:
+          - generic [ref=f4e126]:
+            - generic [ref=f4e127]: Email
+            - textbox "Email" [ref=f4e128]
+          - generic [ref=f4e129]:
+            - generic [ref=f4e130]: Service
+            - combobox "Service" [ref=f4e131]:
+              - option "Select a service" [selected]
+              - option "Control Panels"
+              - option "PLC System Integration"
+              - option "HMI/SCADA Integration"
+              - option "Field Service"
+              - option "Other / Not sure"
+        - generic [ref=f4e132]:
+          - generic [ref=f4e133]: Message
+          - textbox "Message" [ref=f4e134]:
+            - /placeholder: Tell us about your project or challenge…
+        - button "Send a Message" [ref=f4e135] [cursor=pointer]
+  - contentinfo [ref=f4e139]:
+    - generic [ref=f4e140]:
+      - generic [ref=f4e141]:
+        - img "Radiant Control Systems" [ref=f4e142]
+        - paragraph [ref=f4e143]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=f4e144]:
+          - link "Facebook" [ref=f4e145] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f4e148] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=f4e152] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=f4e157]:
+        - heading "Services" [level=4] [ref=f4e158]
+        - list [ref=f4e159]:
+          - listitem [ref=f4e160]:
+            - link "Control Panels" [ref=f4e161] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=f4e162]:
+            - link "PLC System Integration" [ref=f4e163] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=f4e164]:
+            - link "HMI/SCADA Integration" [ref=f4e165] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=f4e166]:
+            - link "Field Service" [ref=f4e167] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=f4e168]:
+        - heading "Industries" [level=4] [ref=f4e169]
+        - list [ref=f4e170]:
+          - listitem [ref=f4e171]:
+            - link "Wastewater" [ref=f4e172] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=f4e173]:
+            - link "Aggregate" [ref=f4e174] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=f4e175]:
+            - link "Automobiles" [ref=f4e176] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=f4e177]:
+            - link "Logistics" [ref=f4e178] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=f4e179]:
+            - link "Food & Beverage" [ref=f4e180] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=f4e181]:
+            - link "Power Plant" [ref=f4e182] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=f4e183]:
+            - link "Oil & Gas" [ref=f4e184] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=f4e185]:
+            - link "Manufacturing" [ref=f4e186] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=f4e187]:
+        - heading "Company" [level=4] [ref=f4e188]
+        - list [ref=f4e189]:
+          - listitem [ref=f4e190]:
+            - link "About Us" [ref=f4e191] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f4e192]:
+            - link "CEO Desk" [ref=f4e193] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=f4e194]:
+            - link "Capability Statement" [ref=f4e195] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=f4e196]:
+            - link "New Data Features" [ref=f4e197] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=f4e198]:
+            - link "Careers" [ref=f4e199] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f4e200]:
+            - link "Blog" [ref=f4e201] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f4e202]:
+            - link "Contact Us" [ref=f4e203] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f4e204]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=f4e205]
+        - list [ref=f4e206]:
+          - listitem [ref=f4e207]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=f4e211] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=f4e212]:
+            - link "(470) 915-0965" [ref=f4e215] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f4e216]:
+            - link "info@radiantcontrolsystems.com" [ref=f4e220] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=f4e221]:
+          - img "MBE Certified" [ref=f4e222]
+          - img "DBE Certified" [ref=f4e223]
+          - img "NMSDC Minority Business Enterprise" [ref=f4e224]
+    - generic [ref=f4e225]:
+      - strong [ref=f4e227]: DBE & MBE Certified
+      - generic [ref=f4e228]: "GDOT Vendor ID: 19325"
+      - generic [ref=f4e229]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=f4e230]: "GMDC: AT249607"
+      - generic [ref=f4e231]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=f4e232]: "CAGE: 10NB0"
+      - generic [ref=f4e233]: "UEI: S5L4B99AGYX3"
+      - generic [ref=f4e234]: "E-Verify: 2293567"
+    - generic [ref=f4e235]: © 2026 Radiant Control Systems LLC. All rights reserved.

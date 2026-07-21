@@ -1,0 +1,28 @@
+.sitemap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}
+.sitemap h2 {
+  font-size: 1.15rem;
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-2);
+  border-bottom: 2px solid var(--gold-500);
+}
+.sitemap ul {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+.sitemap a {
+  color: var(--navy-700);
+  font-weight: 500;
+}
+.sitemap a:hover {
+  color: var(--signal-700);
+}
+@media (max-width: 720px) {
+  .sitemap {
+    grid-template-columns: 1fr;
+  }
+}

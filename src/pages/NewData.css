@@ -1,0 +1,21 @@
+.nd-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+.nd-shot {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border);
+}
+@media (max-width: 900px) {
+  .nd-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .nd-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,38 @@
+.about-know {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  max-width: 900px;
+  margin-inline: auto;
+}
+.about-know li {
+  position: relative;
+  padding: 12px 14px 12px 32px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-weight: 500;
+  color: var(--fg);
+  font-size: 0.92rem;
+}
+.about-know li::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 17px;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--gold-500);
+}
+@media (max-width: 760px) {
+  .about-know {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .about-know {
+    grid-template-columns: 1fr;
+  }
+}

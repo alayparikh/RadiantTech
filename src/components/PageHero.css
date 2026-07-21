@@ -1,0 +1,82 @@
+.phero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--ink);
+  min-height: 380px;
+  display: flex;
+  align-items: flex-end;
+  isolation: isolate;
+}
+.phero--ph {
+  background: linear-gradient(135deg, var(--ink), var(--navy-600));
+}
+.phero__scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--hero-scrim);
+  z-index: 0;
+}
+.phero__bp {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image:
+    linear-gradient(var(--blueprint) 1px, transparent 1px),
+    linear-gradient(90deg, var(--blueprint) 1px, transparent 1px);
+  background-size: 56px 56px;
+  pointer-events: none;
+}
+.phero__bp::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(80% 60% at 90% 0%, rgba(42, 160, 216, 0.16), transparent 60%);
+}
+.phero__inner {
+  position: relative;
+  z-index: 2;
+  padding-block: clamp(48px, 7vw, 88px) clamp(36px, 5vw, 60px);
+  color: #fff;
+}
+.phero h1 {
+  color: #fff;
+  max-width: 18ch;
+}
+.phero__kicker {
+  margin-bottom: var(--space-2);
+}
+.phero__sub {
+  color: var(--on-navy-muted);
+  font-size: 1.15rem;
+  margin-top: var(--space-3);
+  max-width: 58ch;
+}
+.phero__crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: var(--space-3);
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--on-navy-muted);
+}
+.phero__crumbs span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.phero__crumbs svg {
+  color: var(--gold-500);
+}
+.phero__crumbs a {
+  color: var(--on-navy-muted);
+}
+.phero__crumbs a:hover {
+  color: var(--gold-500);
+}
+.phero__crumbs [aria-current] {
+  color: #fff;
+}

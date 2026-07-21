@@ -1,0 +1,104 @@
+.careers-openings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+.careers-role {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--gold-500);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+.careers-role h3 {
+  font-size: 1.2rem;
+}
+.careers-role__exp {
+  font-size: 0.85rem;
+  color: var(--faint-fg);
+}
+.careers-role__apply {
+  margin-top: auto;
+}
+
+.careers-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+.careers-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+}
+.careers-panel h3 {
+  margin-bottom: var(--space-2);
+}
+.careers-details {
+  list-style: none;
+  display: grid;
+  gap: var(--space-2);
+}
+.careers-details li {
+  display: flex;
+  gap: var(--space-2);
+  align-items: flex-start;
+}
+.careers-details__ic {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  color: var(--navy-700);
+}
+.careers-details__label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--faint-fg);
+}
+.careers-details__value {
+  display: block;
+  font-weight: 500;
+  color: var(--fg);
+}
+.careers-benefits {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+.careers-benefits li {
+  position: relative;
+  padding-left: 24px;
+  font-weight: 500;
+}
+.careers-benefits li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--gold-500);
+}
+
+@media (max-width: 860px) {
+  .careers-openings {
+    grid-template-columns: 1fr;
+  }
+  .careers-info {
+    grid-template-columns: 1fr;
+  }
+}

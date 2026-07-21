@@ -1,0 +1,212 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - link "Skip to content" [ref=f5e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f5e5]:
+      - link "Radiant Control Systems home" [ref=f5e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=f5e7]
+      - link "(470) 915-0965" [ref=f5e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=f5e11]:
+        - link "Home" [ref=f5e12] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=f5e14] [cursor=pointer]
+        - button "Services" [ref=f5e17] [cursor=pointer]
+        - button "Industries We Serve" [ref=f5e20] [cursor=pointer]
+        - link "New Data Features" [ref=f5e22] [cursor=pointer]:
+          - /url: /new-data
+        - link "Capability Statement" [ref=f5e23] [cursor=pointer]:
+          - /url: /capability-statement
+        - link "Careers" [ref=f5e24] [cursor=pointer]:
+          - /url: /careers
+        - link "Contact Us" [ref=f5e25] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f5e26]:
+    - generic [ref=f5e29]:
+      - navigation "Breadcrumb" [ref=f5e30]:
+        - link "Home" [ref=f5e31] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f5e32]: CEO Desk
+      - heading "From the CEO's Desk" [level=1] [ref=f5e36]
+      - paragraph [ref=f5e37]: Leadership rooted in engineering.
+    - generic [ref=f5e39]:
+      - img "Tejas TJ Patwa, CEO of Radiant Control Systems" [ref=f5e41]
+      - generic [ref=f5e42]:
+        - generic [ref=f5e43]: Chief Executive Officer
+        - heading "Tejas \"TJ\" Patwa" [level=2] [ref=f5e44]
+        - paragraph [ref=f5e45]: An excellent academic career from his school days, TJ brings 22-plus years of control-engineering and project-management experience to Radiant Control Systems.
+        - heading "Professional skills" [level=3] [ref=f5e46]
+        - list [ref=f5e47]:
+          - listitem [ref=f5e48]: Leadership
+          - listitem [ref=f5e49]: Team Management
+          - listitem [ref=f5e50]: Control Systems Design
+          - listitem [ref=f5e51]: Engineering
+          - listitem [ref=f5e52]: Electrical Engineering
+          - listitem [ref=f5e53]: Engineering Management
+          - listitem [ref=f5e54]: Programmable Logic Controller (PLC)
+          - listitem [ref=f5e55]: SCADA, HMI, Commissioning
+        - paragraph [ref=f5e56]: Throughout his career TJ has worked on a vast array of projects — US government projects, power plants, airport baggage handling, food-process conveyors, aggregate, and wastewater lift stations. He ran a control-engineering consulting company from 2012 to 2013, working with automotive companies including Tesla, Volkswagen, and Ford, and developed a packing-process control system and a sand-drying control system.
+        - paragraph [ref=f5e57]:
+          - text: On November 23, 2022, he received an Honorary
+          - strong [ref=f5e58]: Doctorate Degree in Management
+          - text: .
+    - generic [ref=f5e60]:
+      - generic [ref=f5e61]:
+        - generic [ref=f5e62]: Community
+        - heading "Currently serving on the following boards" [level=2] [ref=f5e63]
+      - list [ref=f5e64]:
+        - listitem [ref=f5e65]: Foundation Board Member — Gwinnett County Public Library, Georgia
+        - listitem [ref=f5e66]: President / Executive Board — Bharitya American Chamber of Commerce
+        - listitem [ref=f5e67]: Executive Secretary — Gokuldham, Georgia
+        - listitem [ref=f5e68]: Director — VIPO USA
+        - listitem [ref=f5e69]: Founder — Nand Gam, Austin, TX
+    - generic [ref=f5e71]:
+      - generic [ref=f5e72]:
+        - generic [ref=f5e73]:
+          - generic [ref=f5e74]: Get in touch
+          - heading "Contact Us" [level=2] [ref=f5e75]
+          - paragraph [ref=f5e76]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=f5e77]:
+          - listitem [ref=f5e78]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=f5e83] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=f5e84]:
+            - link "(470) 915-0965" [ref=f5e88] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f5e89]:
+            - link "info@radiantcontrolsystems.com" [ref=f5e94] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=f5e95]:
+            - generic [ref=f5e100]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - generic [ref=f5e102]:
+        - generic [ref=f5e103]:
+          - generic [ref=f5e104]:
+            - generic [ref=f5e105]: Name
+            - textbox "Name" [ref=f5e106]
+          - generic [ref=f5e107]:
+            - generic [ref=f5e108]: Contact Number
+            - textbox "Contact Number" [ref=f5e109]
+        - generic [ref=f5e110]:
+          - generic [ref=f5e111]:
+            - generic [ref=f5e112]: Email
+            - textbox "Email" [ref=f5e113]
+          - generic [ref=f5e114]:
+            - generic [ref=f5e115]: Service
+            - combobox "Service" [ref=f5e116]:
+              - option "Select a service" [selected]
+              - option "Control Panels"
+              - option "PLC System Integration"
+              - option "HMI/SCADA Integration"
+              - option "Field Service"
+              - option "Other / Not sure"
+        - generic [ref=f5e117]:
+          - generic [ref=f5e118]: Message
+          - textbox "Message" [ref=f5e119]:
+            - /placeholder: Tell us about your project or challenge…
+        - button "Send a Message" [ref=f5e120] [cursor=pointer]
+  - contentinfo [ref=f5e124]:
+    - generic [ref=f5e125]:
+      - generic [ref=f5e126]:
+        - img "Radiant Control Systems" [ref=f5e127]
+        - paragraph [ref=f5e128]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=f5e129]:
+          - link "Facebook" [ref=f5e130] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f5e133] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=f5e137] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=f5e142]:
+        - heading "Services" [level=4] [ref=f5e143]
+        - list [ref=f5e144]:
+          - listitem [ref=f5e145]:
+            - link "Control Panels" [ref=f5e146] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=f5e147]:
+            - link "PLC System Integration" [ref=f5e148] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=f5e149]:
+            - link "HMI/SCADA Integration" [ref=f5e150] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=f5e151]:
+            - link "Field Service" [ref=f5e152] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=f5e153]:
+        - heading "Industries" [level=4] [ref=f5e154]
+        - list [ref=f5e155]:
+          - listitem [ref=f5e156]:
+            - link "Wastewater" [ref=f5e157] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=f5e158]:
+            - link "Aggregate" [ref=f5e159] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=f5e160]:
+            - link "Automobiles" [ref=f5e161] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=f5e162]:
+            - link "Logistics" [ref=f5e163] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=f5e164]:
+            - link "Food & Beverage" [ref=f5e165] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=f5e166]:
+            - link "Power Plant" [ref=f5e167] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=f5e168]:
+            - link "Oil & Gas" [ref=f5e169] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=f5e170]:
+            - link "Manufacturing" [ref=f5e171] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=f5e172]:
+        - heading "Company" [level=4] [ref=f5e173]
+        - list [ref=f5e174]:
+          - listitem [ref=f5e175]:
+            - link "About Us" [ref=f5e176] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f5e177]:
+            - link "CEO Desk" [ref=f5e178] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=f5e179]:
+            - link "Capability Statement" [ref=f5e180] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=f5e181]:
+            - link "New Data Features" [ref=f5e182] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=f5e183]:
+            - link "Careers" [ref=f5e184] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f5e185]:
+            - link "Blog" [ref=f5e186] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f5e187]:
+            - link "Contact Us" [ref=f5e188] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f5e189]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=f5e190]
+        - list [ref=f5e191]:
+          - listitem [ref=f5e192]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=f5e196] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=f5e197]:
+            - link "(470) 915-0965" [ref=f5e200] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f5e201]:
+            - link "info@radiantcontrolsystems.com" [ref=f5e205] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=f5e206]:
+          - img "MBE Certified" [ref=f5e207]
+          - img "DBE Certified" [ref=f5e208]
+          - img "NMSDC Minority Business Enterprise" [ref=f5e209]
+    - generic [ref=f5e210]:
+      - strong [ref=f5e212]: DBE & MBE Certified
+      - generic [ref=f5e213]: "GDOT Vendor ID: 19325"
+      - generic [ref=f5e214]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=f5e215]: "GMDC: AT249607"
+      - generic [ref=f5e216]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=f5e217]: "CAGE: 10NB0"
+      - generic [ref=f5e218]: "UEI: S5L4B99AGYX3"
+      - generic [ref=f5e219]: "E-Verify: 2293567"
+    - generic [ref=f5e220]: © 2026 Radiant Control Systems LLC. All rights reserved.
