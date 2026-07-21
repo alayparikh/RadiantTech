@@ -1,4 +1,3 @@
-import { Activity, Gauge, Timer, MonitorCog, Globe, Radio } from 'lucide-react';
 import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 import Image from '../components/Image';
