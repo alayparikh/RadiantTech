@@ -1,0 +1,187 @@
+- generic [ref=f15e2]:
+  - banner [ref=f15e3]:
+    - link "Skip to content" [ref=f15e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f15e5]:
+      - link "Radiant Control Systems home" [ref=f15e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=f15e7]
+      - link "(470) 915-0965" [ref=f15e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=f15e12]:
+        - link "Home" [ref=f15e13] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=f15e15] [cursor=pointer]
+        - button "Services" [ref=f15e19] [cursor=pointer]
+        - button "Industries" [ref=f15e23] [cursor=pointer]
+        - link "Projects" [ref=f15e26] [cursor=pointer]:
+          - /url: /projects
+        - button "Resources" [ref=f15e28] [cursor=pointer]
+        - link "Contact Us" [ref=f15e31] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f15e32]:
+    - generic [ref=f15e35]:
+      - navigation "Breadcrumb" [ref=f15e36]:
+        - link "Home" [ref=f15e37] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f15e38]: Contact Us
+      - heading "Contact Us" [level=1] [ref=f15e42]
+      - paragraph [ref=f15e43]: Let's talk about your process, your platform, and your timeline.
+    - generic [ref=f15e45]:
+      - generic [ref=f15e46]:
+        - generic [ref=f15e47]:
+          - generic [ref=f15e48]: Get in touch
+          - heading "Send us a message" [level=2] [ref=f15e49]
+          - paragraph [ref=f15e50]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=f15e51]:
+          - listitem [ref=f15e52]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=f15e57] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=f15e58]:
+            - link "(470) 915-0965" [ref=f15e62] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f15e63]:
+            - link "info@radiantcontrolsystems.com" [ref=f15e68] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=f15e69]:
+            - generic [ref=f15e74]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - status [ref=f15e201]:
+        - heading "Thank you — message received." [level=3] [ref=f15e205]
+        - paragraph [ref=f15e206]: Our team will get back to you within one business day.
+        - button "Send another message" [ref=f15e207] [cursor=pointer]
+    - iframe [ref=f15e99]:
+      - generic [ref=f16e1]:
+        - link "Get directions (opens in new tab)" [ref=f16e8] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x88f5bd38007cd32f:0x3d09a6787c6947d8!3e0?g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF
+        - generic [ref=f16e6]:
+          - generic:
+            - button "Keyboard shortcuts"
+          - region "Map" [ref=f16e14]
+          - generic [ref=f16e15]:
+            - iframe [ref=f16e64]:
+              
+            - button "Map camera controls" [ref=f16e66] [cursor=pointer]
+            - button "Show satellite imagery" [ref=f16e69] [cursor=pointer]:
+              - generic [ref=f16e73]:
+                - region [ref=f16e74]
+                - iframe [ref=f16e80]:
+                  
+            - img "Google" [ref=f16e82]
+            - generic [ref=f16e83]:
+              - button "Keyboard shortcuts" [ref=f16e89] [cursor=pointer]
+              - generic [ref=f16e90]: Map data ©2026 Google
+              - link "Terms (opens in new tab)" [ref=f16e99] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+                - text: Terms
+              - link "Report a map error (opens in new tab)" [ref=f16e104] [cursor=pointer]:
+                - /url: https://www.google.com/maps/@33.9902823,-84.0906955,16z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+                - text: Report a map error
+  - contentinfo [ref=f15e100]:
+    - generic [ref=f15e101]:
+      - generic [ref=f15e102]:
+        - img "Radiant Control Systems" [ref=f15e103]
+        - paragraph [ref=f15e104]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=f15e105]:
+          - link "Facebook" [ref=f15e106] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f15e109] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=f15e113] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=f15e118]:
+        - heading "Services" [level=4] [ref=f15e119]
+        - list [ref=f15e120]:
+          - listitem [ref=f15e121]:
+            - link "Control Panels" [ref=f15e122] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=f15e123]:
+            - link "PLC System Integration" [ref=f15e124] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=f15e125]:
+            - link "HMI/SCADA Integration" [ref=f15e126] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=f15e127]:
+            - link "Field Service" [ref=f15e128] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=f15e129]:
+        - heading "Industries" [level=4] [ref=f15e130]
+        - list [ref=f15e131]:
+          - listitem [ref=f15e132]:
+            - link "Wastewater" [ref=f15e133] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=f15e134]:
+            - link "Aggregate" [ref=f15e135] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=f15e136]:
+            - link "Automobiles" [ref=f15e137] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=f15e138]:
+            - link "Logistics" [ref=f15e139] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=f15e140]:
+            - link "Food & Beverage" [ref=f15e141] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=f15e142]:
+            - link "Power Plant" [ref=f15e143] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=f15e144]:
+            - link "Oil & Gas" [ref=f15e145] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=f15e146]:
+            - link "Manufacturing" [ref=f15e147] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=f15e148]:
+        - heading "Company" [level=4] [ref=f15e149]
+        - list [ref=f15e150]:
+          - listitem [ref=f15e151]:
+            - link "About Us" [ref=f15e152] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f15e153]:
+            - link "CEO Desk" [ref=f15e154] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=f15e155]:
+            - link "Projects" [ref=f15e156] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f15e157]:
+            - link "Capability Statement" [ref=f15e158] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=f15e159]:
+            - link "New Data Features" [ref=f15e160] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=f15e161]:
+            - link "Careers" [ref=f15e162] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f15e163]:
+            - link "Blog" [ref=f15e164] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f15e165]:
+            - link "Contact Us" [ref=f15e166] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f15e167]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=f15e168]
+        - list [ref=f15e169]:
+          - listitem [ref=f15e170]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=f15e174] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=f15e175]:
+            - link "(470) 915-0965" [ref=f15e178] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f15e179]:
+            - link "info@radiantcontrolsystems.com" [ref=f15e183] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=f15e184]:
+          - img "MBE Certified" [ref=f15e185]
+          - img "DBE Certified" [ref=f15e186]
+          - img "NMSDC Minority Business Enterprise" [ref=f15e187]
+          - img "Georgia SBSD Small Business Certified" [ref=f15e188]
+    - generic [ref=f15e189]:
+      - strong [ref=f15e191]: DBE & MBE Certified
+      - generic [ref=f15e192]: "GDOT Vendor ID: 19325"
+      - generic [ref=f15e193]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=f15e194]: "GMDC: AT249607"
+      - generic [ref=f15e195]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=f15e196]: "CAGE: 10NB0"
+      - generic [ref=f15e197]: "UEI: S5L4B99AGYX3"
+      - generic [ref=f15e198]: "E-Verify: 2293567"
+    - generic [ref=f15e199]: © 2026 Radiant Control Systems LLC. All rights reserved.
