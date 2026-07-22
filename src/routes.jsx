@@ -10,6 +10,7 @@ import Blog from './pages/Blog';
 import Sitemap from './pages/Sitemap';
 import CapabilityStatement from './pages/CapabilityStatement';
 import NewData from './pages/NewData';
+import Projects from './pages/Projects';
 import ServicePage from './pages/ServicePage';
 import IndustryPage from './pages/IndustryPage';
 import NotFound from './pages/NotFound';
@@ -28,6 +29,7 @@ export const routes = [
       { path: 'sitemap', element: <Sitemap /> },
       { path: 'capability-statement', element: <CapabilityStatement /> },
       { path: 'new-data', element: <NewData /> },
+      { path: 'projects', element: <Projects /> },
       ...SERVICES.map((s) => ({
         path: s.slug,
         element: <ServicePage service={s} />,
@@ -36,6 +38,7 @@ export const routes = [
         path: i.slug,
         element: <IndustryPage industry={i} />,
       })),
+      { path: '404', element: <NotFound /> },
       { path: '*', element: <NotFound /> },
     ],
   },

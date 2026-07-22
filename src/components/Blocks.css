@@ -33,9 +33,23 @@
 .statrow__item {
   position: relative;
   padding: var(--space-4);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid var(--blueprint-strong);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
+  border: 1px solid rgba(255, 255, 255, 0.09);
   border-radius: var(--radius);
+  transition: border-color 240ms ease, transform 240ms ease;
+}
+.statrow__item::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: var(--space-4);
+  width: 28px;
+  height: 2px;
+  background: var(--gold-500);
+}
+.statrow__item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(242, 182, 50, 0.4);
 }
 .statrow__num {
   font-family: var(--font-mono);
@@ -101,6 +115,92 @@
 .logocloud__logo:hover {
   filter: grayscale(0);
   opacity: 1;
+}
+
+.home-trust {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+/* Trusted-by names strip */
+.trustedby {
+  text-align: center;
+}
+.trustedby__title {
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint-fg);
+  margin-bottom: var(--space-4);
+}
+.trustedby__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(24px, 5vw, 64px);
+}
+.trustedby__name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.1rem, 0.9rem + 0.9vw, 1.7rem);
+  letter-spacing: -0.01em;
+  color: var(--navy-800);
+  opacity: 0.42;
+  transition: opacity 200ms ease, color 200ms ease;
+  white-space: nowrap;
+}
+.trustedby__name:hover {
+  opacity: 1;
+  color: var(--navy-700);
+}
+
+/* Certification trust bar */
+.certbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+  flex-wrap: wrap;
+  padding: var(--space-5) var(--space-6);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+.certbar__text h3 {
+  margin-top: var(--space-1);
+  font-size: clamp(1.2rem, 1rem + 0.8vw, 1.6rem);
+}
+.certbar__codes {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: var(--muted-fg);
+  letter-spacing: 0.02em;
+}
+.certbar__badges {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+.certbar__badges img {
+  height: 76px;
+  width: auto;
+  object-fit: contain;
+}
+@media (max-width: 640px) {
+  .certbar {
+    justify-content: center;
+    text-align: center;
+  }
+  .certbar__text .tlabel {
+    justify-content: center;
+  }
+  .certbar__badges img {
+    height: 60px;
+  }
 }
 
 /* CTA banner */

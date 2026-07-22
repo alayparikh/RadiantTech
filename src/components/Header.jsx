@@ -33,6 +33,9 @@ export default function Header() {
     return () => document.removeEventListener('pointerdown', onDown);
   }, []);
 
+  const isDesktop = () =>
+    typeof window !== 'undefined' && window.matchMedia('(min-width: 1080px)').matches;
+
   // Esc closes
   useEffect(() => {
     const onKey = (e) => {
@@ -87,6 +90,13 @@ export default function Header() {
                 className={`hdr__item hdr__item--has-menu ${
                   openMenu === item.label ? 'is-open' : ''
                 }`}
+                onMouseEnter={() => isDesktop() && setOpenMenu(item.label)}
+                onMouseLeave={() => isDesktop() && setOpenMenu(null)}
+                onBlur={(e) => {
+                  if (isDesktop() && !e.currentTarget.contains(e.relatedTarget)) {
+                    setOpenMenu(null);
+                  }
+                }}
               >
                 <button
                   className="hdr__link hdr__link--btn"
@@ -95,6 +105,7 @@ export default function Header() {
                   onClick={() =>
                     setOpenMenu((cur) => (cur === item.label ? null : item.label))
                   }
+                  onFocus={() => isDesktop() && setOpenMenu(item.label)}
                 >
                   {item.label}
                   <ChevronDown size={15} aria-hidden="true" className="hdr__chev" />

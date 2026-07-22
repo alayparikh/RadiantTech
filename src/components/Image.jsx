@@ -9,7 +9,7 @@ import './Image.css';
 // Real photos now exist for plc-panel, hmi-screen, field-service, wastewater,
 // and ceo-portrait (scraped from the live site). Only these still want a
 // generated image — see docs/IMAGE-PROMPTS.md.
-const PENDING = new Set(['new-data-hmi', 'home-hero']);
+const PENDING = new Set(['home-hero']);
 
 export default function Image({
   src,

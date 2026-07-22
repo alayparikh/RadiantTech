@@ -31,24 +31,51 @@ export default function ContactForm() {
     const eObj = validate(form);
     setErrors(eObj);
     if (Object.keys(eObj).length) {
-      // focus first invalid field
       const first = Object.keys(eObj)[0];
       document.querySelector(`[name="${first}"]`)?.focus();
       return;
     }
     setStatus('sending');
+    setErrors({});
 
-    // TODO(endpoint): wire to Formspree/Web3Forms/EmailJS or a backend.
-    // Example (Web3Forms):
-    //   await fetch('https://api.web3forms.com/submit', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({ access_key: 'YOUR_KEY', ...form }),
-    //   });
-    await new Promise((r) => setTimeout(r, 800)); // simulate network
+    // Web3Forms: set VITE_WEB3FORMS_ACCESS_KEY in your host env (see DEPLOY.md).
+    // Get a free key at https://web3forms.com (enter info@radiantcontrolsystems.com).
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
-    setStatus('sent');
-    setForm(EMPTY);
+    if (!accessKey) {
+      // No key configured yet — demo mode (no email sent).
+      await new Promise((r) => setTimeout(r, 700));
+      setStatus('sent');
+      setForm(EMPTY);
+      return;
+    }
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key: accessKey,
+          subject: `New website enquiry — ${form.service || 'General'}`,
+          from_name: 'Radiant Control Systems Website',
+          name: form.name,
+          email: form.email,
+          phone: form.phone,
+          service: form.service || 'Not specified',
+          message: form.message,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setStatus('sent');
+        setForm(EMPTY);
+      } else {
+        throw new Error(data.message || 'Submission failed');
+      }
+    } catch (err) {
+      setStatus('idle');
+      setErrors({ form: "Something went wrong. Please call us at (470) 915-0965 or email info@radiantcontrolsystems.com." });
+    }
   };
 
   if (status === 'sent') {
@@ -97,6 +124,9 @@ export default function ContactForm() {
         />
         {errors.message && <span className="cform__err" id="cf-message-err">{errors.message}</span>}
       </div>
+      {errors.form && (
+        <p className="cform__err cform__err--form" role="alert">{errors.form}</p>
+      )}
       <button type="submit" className="btn btn--primary cform__submit" disabled={status === 'sending'}>
         {status === 'sending' ? (
           <><Loader2 size={18} className="spin" aria-hidden="true" /> Sending…</>

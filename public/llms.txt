@@ -1,0 +1,75 @@
+# Radiant Control Systems LLC
+
+> Empowering Industry with Intelligent Control. Radiant Control Systems is an industrial automation and controls system integrator based in Duluth, GA, serving Georgia, the Southeast, and nationwide.
+
+## What we do
+Radiant Control Systems designs and integrates industrial control systems for municipal water, wastewater, power, oil & gas, food & beverage, aggregate, automotive, and manufacturing facilities. Core services:
+- **Control Panels**: A control panel is an engineered enclosure that houses the electrical components — PLCs, drives, starters, and protection — that run a machine or process. Radiant designs and builds them to UL-508A and NEC standards.
+- **PLC System Integration**: PLC system integration is the seamless incorporation of Programmable Logic Controllers into industrial processes to deliver reliable automation and control — from initial design through programming and commissioning.
+- **HMI/SCADA Integration**: HMI/SCADA integration connects operators to their process through real-time monitoring, control, and data visualization — the interface layer that sits on top of PLCs and field devices.
+- **Field Service**: Field service covers the on-site work that keeps automation systems running: commissioning new installations, troubleshooting faults, training operators, and rolling out PLC/SCADA updates.
+
+## Industries served
+- Wastewater
+- Aggregate
+- Automobiles
+- Logistics
+- Food & Beverage
+- Power Plant
+- Oil & Gas
+- Manufacturing
+
+## Platforms & technologies
+- PLC: ControlLogix, CompactLogix, MicroLogix, SLC 500, PLC5; Siemens — S5, S7, TIA Portal; Schneider / Modicon; GE Intelligent Platforms; Automation Direct; Mitsubishi
+- HMI/SCADA: Wonderware InTouch, iFIX, FactoryTalk View SE/ME, EZ Automation, Ignition, Optix
+- Networks: Ethernet TCP/IP, ControlNet, RS232, DeviceNet, Profibus network, Profinet
+- Motion control: VFDs, Encoders, Servo Drives and Resolvers
+- Also: Allen-Bradley, ControlLogix, Siemens S7, TIA Portal, Modicon, Wonderware, FactoryTalk View, Ignition, GE iFIX, VTScada, Profibus, EtherNet/IP, UL-508A, VFD Drives, MCC Design
+
+## Expertise
+- Industrial automation
+- UL-508A control panel design
+- PLC programming and integration
+- HMI and SCADA integration
+- Allen-Bradley ControlLogix
+- Siemens S7 / TIA Portal
+- Wonderware InTouch
+- FactoryTalk View
+- Ignition SCADA
+- Lift station and pump control
+- Wastewater treatment automation
+- Motor control centers (MCC)
+- Variable frequency drives (VFD)
+- Field service and commissioning
+
+## Certifications & registrations
+DBE & MBE certified. GDOT Vendor ID 19325. NAICS 541511, 541512, 541330. GMDC AT249607. NIGP 69031, 69032, 03125, 92040. CAGE 10NB0. UEI S5L4B99AGYX3.
+
+## Leadership
+Founded 2018 by Ami Patwa. CEO: Tejas "TJ" Patwa — 22+ years in control engineering and project management, Honorary Doctorate in Management (2022).
+
+## Contact
+- Address: 6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097, USA
+- Phone: (470) 915-0965
+- Email: info@radiantcontrolsystems.com
+- Website: https://radiantcontrolsystems.com
+- Service area: Georgia, the Southeast, and nationwide
+
+## Key pages
+- https://radiantcontrolsystems.com/
+- https://radiantcontrolsystems.com/about-us
+- https://radiantcontrolsystems.com/capability-statement
+- https://radiantcontrolsystems.com/projects
+- https://radiantcontrolsystems.com/contact-us
+- https://radiantcontrolsystems.com/control-panels
+- https://radiantcontrolsystems.com/plc-system-integration
+- https://radiantcontrolsystems.com/hmi-scada-integration
+- https://radiantcontrolsystems.com/field-service
+- https://radiantcontrolsystems.com/wastewater-treatment
+- https://radiantcontrolsystems.com/aggregate
+- https://radiantcontrolsystems.com/automobiles
+- https://radiantcontrolsystems.com/logistics
+- https://radiantcontrolsystems.com/food-beverage
+- https://radiantcontrolsystems.com/power-plant
+- https://radiantcontrolsystems.com/oil-gas
+- https://radiantcontrolsystems.com/manufacturing

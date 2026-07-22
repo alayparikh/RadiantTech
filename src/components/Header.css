@@ -2,13 +2,11 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(12px);
+  background: var(--surface);
   border-bottom: 1px solid var(--hairline);
-  transition: box-shadow 220ms ease, background 220ms ease, border-color 220ms ease;
+  transition: box-shadow 220ms ease, border-color 220ms ease;
 }
 .hdr--scrolled {
-  background: rgba(255, 255, 255, 0.82);
   box-shadow: var(--shadow-md);
   border-bottom-color: var(--border);
 }
@@ -160,8 +158,6 @@
     right: 0;
     height: 14px;
   }
-  .hdr__item--has-menu:hover .hdr__menu,
-  .hdr__item--has-menu:focus-within .hdr__menu,
   .hdr__item--has-menu.is-open .hdr__menu {
     opacity: 1;
     visibility: visible;

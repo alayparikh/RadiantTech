@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/gen-seo.mjs",
     "build": "vite-react-ssg build",
     "preview": "vite preview",
+    "gen-seo": "node scripts/gen-seo.mjs",
     "fetch-assets": "node scripts/fetch-assets.mjs"
   },
   "dependencies": {

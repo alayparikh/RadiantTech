@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import * as Icons from 'lucide-react';
 import Image from './Image';
 import Reveal from './Reveal';
@@ -27,8 +27,9 @@ export function ServiceCard({ service, index = 0 }) {
   );
 }
 
-// Industry card — photo + label, with technical hover.
+// Industry card — photo + icon + title + description + arrow.
 export function IndustryCard({ industry, index = 0 }) {
+  const Icon = Icons[industry.icon] || Icons.Factory;
   return (
     <Reveal delay={index * 55}>
       <Link to={`/${industry.slug}`} className="icard">
@@ -38,14 +39,17 @@ export function IndustryCard({ industry, index = 0 }) {
             alt={`${industry.title} automation`}
             width={600}
             height={400}
-            placeholder={industry.imagePlaceholder}
           />
-          <span className="icard__tag mono">{String(index + 1).padStart(2, '0')}</span>
+          <span className="icard__idx mono">{String(index + 1).padStart(2, '0')}</span>
+          <span className="icard__badge">
+            <Icon size={18} aria-hidden="true" strokeWidth={2} />
+          </span>
         </div>
         <div className="icard__body">
           <h3>{industry.title}</h3>
-          <span className="icard__arrow">
-            <ArrowUpRight size={18} aria-hidden="true" />
+          <p>{industry.desc}</p>
+          <span className="icard__more">
+            Explore <ArrowRight size={16} aria-hidden="true" />
           </span>
         </div>
       </Link>

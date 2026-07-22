@@ -1,7 +1,7 @@
 import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 import TwoCol from '../components/TwoCol';
-import { SectionHeading, StatRow, CTABanner } from '../components/Blocks';
+import { SectionHeading, CTABanner } from '../components/Blocks';
 import ContactSection from '../components/ContactSection';
 import { organizationLd, breadcrumbLd } from '../data/jsonld';
 import { COMPANY, KNOWS_ABOUT } from '../data/site';
@@ -33,7 +33,7 @@ export default function About() {
       <section className="section--muted">
         <div className="section container">
           <TwoCol
-            image="/img/products/control-panel.jpg"
+            image="/img/products/control-panels-banner.jpg"
             imageAlt="Radiant Control Systems engineered control panel"
             imagePlaceholder="plc-panel"
             eyebrow="Our story"
@@ -58,13 +58,9 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section container">
-        <StatRow />
-      </section>
-
-      <section className="section--grid">
+      <section className="section--muted bp-light">
         <div className="section container">
-          <SectionHeading center eyebrow="Expertise" title="What we know">
+          <SectionHeading center eyebrow="Expertise" index="02" title="What we know">
             Decades of combined experience across control platforms, networks, and industries.
           </SectionHeading>
           <ul className="about-know">

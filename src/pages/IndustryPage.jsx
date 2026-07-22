@@ -83,14 +83,14 @@ export default function IndustryPage({ industry }) {
   );
 }
 
-function DeepWastewater({ industry }) {
+function DeepWastewater() {
   return (
     <section className="section--muted">
       <div className="section container">
         <div className="grid" style={{ gap: 'var(--space-6)' }}>
           {WASTEWATER_SECTIONS.map((sec, i) => (
             <Reveal key={sec.title}>
-              <TwoColLite section={sec} image={industry.image} reverse={i % 2 === 1} />
+              <TwoColLite section={sec} reverse={i % 2 === 1} />
             </Reveal>
           ))}
         </div>
@@ -99,12 +99,11 @@ function DeepWastewater({ industry }) {
   );
 }
 
-function TwoColLite({ section, image, reverse }) {
+function TwoColLite({ section, reverse }) {
   return (
     <TwoCol
-      image={image}
-      imageAlt="Wastewater lift station control"
-      imagePlaceholder="wastewater"
+      image={section.image}
+      imageAlt={section.imageAlt || 'Wastewater lift station control'}
       reverse={reverse}
       title={section.title}
     >

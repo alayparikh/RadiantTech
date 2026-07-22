@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Reveal from './Reveal';
 import CountUp from './CountUp';
-import { STATS, CLIENT_LOGOS, COMPANY } from '../data/site';
+import { STATS, CLIENT_LOGOS, CLIENTS, CERTS, COMPANY } from '../data/site';
 import './Blocks.css';
 
 export function SectionHeading({ eyebrow, index, title, children, center = false, as = 'h2', light = false }) {
@@ -43,6 +43,39 @@ export function LogoCloud({ title = 'Trusted by industry leaders' }) {
       <div className="logocloud__row">
         {CLIENT_LOGOS.map((l, i) => (
           <img key={i} src={l.src} alt={l.alt} loading="lazy" className="logocloud__logo" />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export function TrustedBy({ clients = CLIENTS }) {
+  return (
+    <div className="trustedby">
+      <p className="trustedby__title mono">Trusted by leading organizations</p>
+      <div className="trustedby__row">
+        {clients.map((c) => (
+          <span key={c} className="trustedby__name">{c}</span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export function CertBar() {
+  const c = COMPANY.certs;
+  return (
+    <div className="certbar">
+      <div className="certbar__text">
+        <span className="tlabel">Certified &amp; registered</span>
+        <h3>Ready for public &amp; municipal procurement</h3>
+        <p className="mono certbar__codes">
+          DBE &amp; MBE · NAICS {c.naics[0]} · CAGE {c.cage} · UEI {c.uei}
+        </p>
+      </div>
+      <div className="certbar__badges">
+        {CERTS.map((cert) => (
+          <img key={cert.src} src={cert.src} alt={cert.alt} loading="lazy" />
         ))}
       </div>
     </div>

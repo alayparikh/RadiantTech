@@ -61,11 +61,10 @@ export default function NewData() {
           </SectionHeading>
           <Reveal>
             <Image
-              src="/img/products/new-data-hmi.png"
-              alt="Radiant real-time wastewater treatment operator interface with live tank levels and pump status"
+              src="/img/products/wastewater-monitor.jpg"
+              alt="Radiant real-time water treatment facility monitor showing live tank levels and pump status"
               width={1120}
               height={640}
-              placeholder="new-data-hmi"
               className="nd-shot"
             />
           </Reveal>

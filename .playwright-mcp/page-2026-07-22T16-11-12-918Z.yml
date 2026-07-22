@@ -1,0 +1,223 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e3]:
+    - link "Skip to content" [ref=f4e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f4e5]:
+      - link "Radiant Control Systems home" [ref=f4e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=f4e7]
+      - link "(470) 915-0965" [ref=f4e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=f4e12]:
+        - link "Home" [ref=f4e13] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=f4e15] [cursor=pointer]
+        - button "Services" [ref=f4e19] [cursor=pointer]
+        - button "Industries" [ref=f4e23] [cursor=pointer]
+        - link "Projects" [ref=f4e26] [cursor=pointer]:
+          - /url: /projects
+        - button "Resources" [ref=f4e28] [cursor=pointer]
+        - link "Contact Us" [ref=f4e31] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f4e32]:
+    - generic [ref=f4e35]:
+      - navigation "Breadcrumb" [ref=f4e36]:
+        - link "Home" [ref=f4e37] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f4e38]: HMI/SCADA Integration
+      - heading "HMI/SCADA Integration" [level=1] [ref=f4e42]
+      - paragraph [ref=f4e43]: Real-time monitoring, control, and visualization across your plant.
+    - generic [ref=f4e46]:
+      - generic [ref=f4e47]: Overview
+      - heading "Comprehensive expertise in leading HMI/SCADA platforms" [level=2] [ref=f4e48]
+      - paragraph [ref=f4e49]: HMI/SCADA integration is pivotal in modern industrial automation, enabling real-time monitoring, control, and visualization of operational data. We design intuitive interfaces that improve operator efficiency and support remote monitoring and data analysis.
+    - generic [ref=f4e52]:
+      - img "HMI/SCADA Integration at Radiant Control Systems" [ref=f4e54]
+      - generic [ref=f4e55]:
+        - generic [ref=f4e56]: Capabilities
+        - heading "Comprehensive expertise in leading HMI/SCADA platforms" [level=2] [ref=f4e57]
+        - generic [ref=f4e58]:
+          - paragraph [ref=f4e59]: HMI/SCADA integration connects operators to their process through real-time monitoring, control, and data visualization — the interface layer that sits on top of PLCs and field devices.
+          - list [ref=f4e60]:
+            - listitem [ref=f4e61]: Aviva Wonderware / InTouch
+            - listitem [ref=f4e62]: GE iFIX
+            - listitem [ref=f4e63]: Rockwell FactoryTalk View ME
+            - listitem [ref=f4e64]: Ignition
+            - listitem [ref=f4e65]: LabVIEW
+            - listitem [ref=f4e66]: VTScada
+    - generic [ref=f4e68]:
+      - generic [ref=f4e69]:
+        - generic [ref=f4e70]: Let's build
+        - heading "Need hmi/scada integration for your facility?" [level=2] [ref=f4e71]
+        - paragraph [ref=f4e72]: Talk to a controls engineer about your process, timeline, and platform.
+      - generic [ref=f4e73]:
+        - link "Contact Us" [ref=f4e74] [cursor=pointer]:
+          - /url: /contact-us
+        - link "(470) 915-0965" [ref=f4e75] [cursor=pointer]:
+          - /url: tel:+14709150965
+    - generic [ref=f4e78]:
+      - heading "HMI/SCADA Integration — FAQ" [level=2] [ref=f4e79]
+      - generic [ref=f4e80]:
+        - generic [ref=f4e81]:
+          - heading [level=3] [ref=f4e82]:
+            - button "What SCADA platforms does Radiant support?" [expanded] [ref=f4e83] [cursor=pointer]
+          - region [ref=f4e86]:
+            - paragraph [ref=f4e87]: Wonderware InTouch, GE iFIX, Rockwell FactoryTalk View SE/ME, Ignition, LabVIEW, and VTScada.
+        - generic [ref=f4e88]:
+          - heading [level=3] [ref=f4e89]:
+            - button "Can you integrate HMI/SCADA with existing PLCs?" [ref=f4e90] [cursor=pointer]
+          - region:
+            - paragraph [ref=f4e93]: Yes. We customize HMI/SCADA solutions to integrate with existing PLCs and field devices, and can add web-accessible operator interfaces for remote supervision.
+    - generic [ref=f4e95]:
+      - generic [ref=f4e96]:
+        - generic [ref=f4e97]:
+          - generic [ref=f4e98]: Get in touch
+          - heading "Contact Us" [level=2] [ref=f4e99]
+          - paragraph [ref=f4e100]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=f4e101]:
+          - listitem [ref=f4e102]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=f4e107] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=f4e108]:
+            - link "(470) 915-0965" [ref=f4e112] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f4e113]:
+            - link "info@radiantcontrolsystems.com" [ref=f4e118] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=f4e119]:
+            - generic [ref=f4e124]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - generic [ref=f4e126]:
+        - generic [ref=f4e127]:
+          - generic [ref=f4e128]:
+            - generic [ref=f4e129]: Name
+            - textbox "Name" [ref=f4e130]
+          - generic [ref=f4e131]:
+            - generic [ref=f4e132]: Contact Number
+            - textbox "Contact Number" [ref=f4e133]
+        - generic [ref=f4e134]:
+          - generic [ref=f4e135]:
+            - generic [ref=f4e136]: Email
+            - textbox "Email" [ref=f4e137]
+          - generic [ref=f4e138]:
+            - generic [ref=f4e139]: Service
+            - combobox "Service" [ref=f4e140]:
+              - option "Select a service" [selected]
+              - option "Control Panels"
+              - option "PLC System Integration"
+              - option "HMI/SCADA Integration"
+              - option "Field Service"
+              - option "Other / Not sure"
+        - generic [ref=f4e141]:
+          - generic [ref=f4e142]: Message
+          - textbox "Message" [ref=f4e143]:
+            - /placeholder: Tell us about your project or challenge…
+        - button "Send a Message" [ref=f4e144] [cursor=pointer]
+  - contentinfo [ref=f4e148]:
+    - generic [ref=f4e149]:
+      - generic [ref=f4e150]:
+        - img "Radiant Control Systems" [ref=f4e151]
+        - paragraph [ref=f4e152]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=f4e153]:
+          - link "Facebook" [ref=f4e154] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f4e157] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=f4e161] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=f4e166]:
+        - heading "Services" [level=4] [ref=f4e167]
+        - list [ref=f4e168]:
+          - listitem [ref=f4e169]:
+            - link "Control Panels" [ref=f4e170] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=f4e171]:
+            - link "PLC System Integration" [ref=f4e172] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=f4e173]:
+            - link "HMI/SCADA Integration" [ref=f4e174] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=f4e175]:
+            - link "Field Service" [ref=f4e176] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=f4e177]:
+        - heading "Industries" [level=4] [ref=f4e178]
+        - list [ref=f4e179]:
+          - listitem [ref=f4e180]:
+            - link "Wastewater" [ref=f4e181] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=f4e182]:
+            - link "Aggregate" [ref=f4e183] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=f4e184]:
+            - link "Automobiles" [ref=f4e185] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=f4e186]:
+            - link "Logistics" [ref=f4e187] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=f4e188]:
+            - link "Food & Beverage" [ref=f4e189] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=f4e190]:
+            - link "Power Plant" [ref=f4e191] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=f4e192]:
+            - link "Oil & Gas" [ref=f4e193] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=f4e194]:
+            - link "Manufacturing" [ref=f4e195] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=f4e196]:
+        - heading "Company" [level=4] [ref=f4e197]
+        - list [ref=f4e198]:
+          - listitem [ref=f4e199]:
+            - link "About Us" [ref=f4e200] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f4e201]:
+            - link "CEO Desk" [ref=f4e202] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=f4e203]:
+            - link "Projects" [ref=f4e204] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f4e205]:
+            - link "Capability Statement" [ref=f4e206] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=f4e207]:
+            - link "New Data Features" [ref=f4e208] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=f4e209]:
+            - link "Careers" [ref=f4e210] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f4e211]:
+            - link "Blog" [ref=f4e212] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f4e213]:
+            - link "Contact Us" [ref=f4e214] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f4e215]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=f4e216]
+        - list [ref=f4e217]:
+          - listitem [ref=f4e218]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=f4e222] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=f4e223]:
+            - link "(470) 915-0965" [ref=f4e226] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f4e227]:
+            - link "info@radiantcontrolsystems.com" [ref=f4e231] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=f4e232]:
+          - img "MBE Certified" [ref=f4e233]
+          - img "DBE Certified" [ref=f4e234]
+          - img "NMSDC Minority Business Enterprise" [ref=f4e235]
+          - img "Georgia SBSD Small Business Certified" [ref=f4e236]
+    - generic [ref=f4e237]:
+      - strong [ref=f4e239]: DBE & MBE Certified
+      - generic [ref=f4e240]: "GDOT Vendor ID: 19325"
+      - generic [ref=f4e241]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=f4e242]: "GMDC: AT249607"
+      - generic [ref=f4e243]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=f4e244]: "CAGE: 10NB0"
+      - generic [ref=f4e245]: "UEI: S5L4B99AGYX3"
+      - generic [ref=f4e246]: "E-Verify: 2293567"
+    - generic [ref=f4e247]: © 2026 Radiant Control Systems LLC. All rights reserved.

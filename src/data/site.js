@@ -19,7 +19,8 @@ export const COMPANY = {
     country: 'US',
   },
   mapUrl: 'https://maps.app.goo.gl/5pU7gQYLf63gKn94A',
-  areaServed: 'Metro Atlanta and the United States',
+  areaServed: 'Georgia, the Southeast, and nationwide',
+  regions: ['Georgia', 'Metro Atlanta', 'the Southeast United States'],
   social: {
     facebook: 'https://www.facebook.com/',
     instagram: 'https://www.instagram.com/',
@@ -93,6 +94,7 @@ export const SERVICES = [
     icon: 'Cpu',
     image: '/img/products/control-panel.jpg',
     imagePlaceholder: 'plc-panel',
+    heroImage: '/img/products/instrumentation.jpg',
     tagline: 'Programming, commissioning, and integration of leading PLC platforms.',
     definition:
       'PLC system integration is the seamless incorporation of Programmable Logic Controllers into industrial processes to deliver reliable automation and control — from initial design through programming and commissioning.',
@@ -116,8 +118,9 @@ export const SERVICES = [
     title: 'HMI/SCADA Integration',
     nav: 'HMI/SCADA Integration',
     icon: 'MonitorCog',
-    image: '/img/products/control-panel-2.png',
+    image: '/img/products/control-panel-2.jpg',
     imagePlaceholder: 'hmi-screen',
+    heroImage: '/img/products/wastewater-monitor.jpg',
     tagline: 'Real-time monitoring, control, and visualization across your plant.',
     definition:
       'HMI/SCADA integration connects operators to their process through real-time monitoring, control, and data visualization — the interface layer that sits on top of PLCs and field devices.',
@@ -148,8 +151,7 @@ export const SERVICES = [
     title: 'Field Service',
     nav: 'Field Service',
     icon: 'Wrench',
-    image: '/img/industries/manufacturing.jpg',
-    imagePlaceholder: 'field-service',
+    image: '/img/products/field-service.jpg',
     tagline: 'On-site training, commissioning, troubleshooting, and updates.',
     definition:
       'Field service covers the on-site work that keeps automation systems running: commissioning new installations, troubleshooting faults, training operators, and rolling out PLC/SCADA updates.',
@@ -177,9 +179,10 @@ export const INDUSTRIES = [
     slug: 'wastewater-treatment',
     title: 'Wastewater',
     nav: 'Wastewater',
-    image: '/img/industries/power-plant.jpg',
-    imagePlaceholder: 'wastewater',
+    icon: 'Waves',
+    image: '/img/industries/wastewater.jpg',
     tagline: 'Reliable lift station and pump control for safe, sanitary operation.',
+    desc: 'Smart lift-station control and level monitoring for reliable, sanitary operation.',
     blurb:
       'Wastewater systems depend heavily on reliable lift station operation, including pump control. Radiant devices and level sensors deliver consistent performance you can count on.',
     deep: true,
@@ -188,8 +191,10 @@ export const INDUSTRIES = [
     slug: 'aggregate',
     title: 'Aggregate',
     nav: 'Aggregate',
+    icon: 'Mountain',
     image: '/img/industries/aggregate.jpg',
     tagline: 'Automation for crushing, screening, and material handling.',
+    desc: 'Automated systems for crushing, screening, and material handling to maximize throughput.',
     blurb:
       'Radiant Control Systems is an industrial electrical OEM contractor. Here to serve, we have history developing products and systems derived from production.',
   },
@@ -197,8 +202,10 @@ export const INDUSTRIES = [
     slug: 'automobiles',
     title: 'Automobiles',
     nav: 'Automobiles',
+    icon: 'Car',
     image: '/img/industries/automobiles.jpg',
     tagline: 'Assembly and process automation for automotive manufacturing.',
+    desc: 'Precision automation for modern automotive manufacturing and assembly lines.',
     blurb:
       'Aluminum US has a long history in the automotive industry with numerous customers over our 20-plus-year history. We help our clients realize opportunities on the line.',
   },
@@ -206,8 +213,10 @@ export const INDUSTRIES = [
     slug: 'logistics',
     title: 'Logistics',
     nav: 'Logistics',
+    icon: 'Truck',
     image: '/img/industries/logistics.jpg',
     tagline: 'Conveyor, sortation, and warehouse control systems.',
+    desc: 'Intelligent automation for warehousing, sortation, and supply-chain efficiency.',
     blurb:
       'Radiant Control Systems delivers automation solutions for material flow and logistics. Through strategic optimization of warehouse control systems, we keep product moving.',
   },
@@ -215,8 +224,10 @@ export const INDUSTRIES = [
     slug: 'food-beverage',
     title: 'Food & Beverage',
     nav: 'Food & Beverage',
+    icon: 'Wine',
     image: '/img/industries/food-beverage.jpg',
     tagline: 'Sanitary, high-uptime automation for food processing.',
+    desc: 'Hygienic, efficient automation for processing, packaging, and quality assurance.',
     blurb:
       'To provide safe and sanitary conditions, food and beverage production meets ever-changing consumer demand. We build automation systems tailored to production workflows.',
   },
@@ -224,8 +235,10 @@ export const INDUSTRIES = [
     slug: 'power-plant',
     title: 'Power Plant',
     nav: 'Power Plant',
+    icon: 'Zap',
     image: '/img/industries/power-plant.jpg',
     tagline: 'Control systems for conventional and renewable energy.',
+    desc: 'Reliable control and monitoring for uninterrupted power generation.',
     blurb:
       'Changes in consumer demand and new opportunities in renewable energy production are leading energy companies to invest in alternative sources. We help modernize the plant floor.',
   },
@@ -233,8 +246,10 @@ export const INDUSTRIES = [
     slug: 'oil-gas',
     title: 'Oil & Gas',
     nav: 'Oil & Gas',
+    icon: 'Flame',
     image: '/img/industries/oil-gas.jpg',
     tagline: 'Turnkey automation from upstream to downstream.',
+    desc: 'Robust automation for upstream, midstream, and downstream operations.',
     blurb:
       'Radiant provides turnkey automation solutions, project management, and technical services for upstream, midstream, and downstream sectors of the oil and gas industry.',
   },
@@ -242,8 +257,10 @@ export const INDUSTRIES = [
     slug: 'manufacturing',
     title: 'Manufacturing',
     nav: 'Manufacturing',
+    icon: 'Factory',
     image: '/img/industries/manufacturing.jpg',
     tagline: 'Modernizing the plant floor with intelligent control.',
+    desc: 'End-to-end automation to improve quality, productivity, and operational agility.',
     blurb:
       'Drawing on decades of experience, Radiant helps manufacturers transform production processes through automation and control system solutions.',
   },
@@ -253,6 +270,8 @@ export const INDUSTRIES = [
 export const WASTEWATER_SECTIONS = [
   {
     title: 'Our industrial I/O controllers and data acquisition modules are used for',
+    image: '/img/industries/wastewater-1.jpg',
+    imageAlt: 'Radiant clarifier drive and control box at a wastewater treatment plant',
     list: [
       'Level measurement',
       'VFD control',
@@ -266,16 +285,22 @@ export const WASTEWATER_SECTIONS = [
   },
   {
     title: 'Lead-lag pump control can be facilitated',
+    image: '/img/industries/wastewater-2.jpg',
+    imageAlt: 'Wastewater clarifier bridge with telemetry antenna and control panel',
     body:
       'With one or two I/O modules, Radiant Control Systems lets you do all of the above at the cost of hundreds, not thousands. Lead-lag pump control is facilitated with pump alternating logic, run-time data logging, and remote alarms that notify operators of fault conditions — no matter the pump station size (duplex, triplex, or quadplex). Our flexible I/O devices improve your control system and give access to more control at lower budgets.',
   },
   {
     title: 'Sanitary Sewage Overflow (SSO)',
+    image: '/img/industries/wastewater.jpg',
+    imageAlt: 'Aerial view of a municipal wastewater treatment plant',
     body:
       'Carefully monitoring the lift station is key to proper pump maintenance and seamless operation. Failure to do so can result in a Sanitary Sewage Overflow (SSO). SSOs are dangerous and expensive: hiring a pump truck to bypass the station while it is repaired is costly, EPA fines can be exorbitant, and the natural and human environment is compromised.',
   },
   {
     title: 'A logic builder for a tailor-made solution',
+    image: '/img/industries/wastewater-1.jpg',
+    imageAlt: 'Wastewater lift-station control equipment',
     body:
       'Our comprehensive suite of products allows engineers and control system integrators to mix and match I/O with an intelligent custom logic builder for a tailor-made, budget-friendly lift station pump controller.',
   },
@@ -327,6 +352,111 @@ export const JOBS = [
   { title: 'Junior Controls Engineer', experience: null },
 ];
 
+// ---- Why Radiant (real facts only — no invented claims) ------------------
+export const WHY_RADIANT = [
+  {
+    icon: 'ShieldCheck',
+    title: 'DBE & MBE Certified',
+    text: 'Georgia DBE and MBE certified with full vendor registration for public and municipal procurement.',
+  },
+  {
+    icon: 'Clock',
+    title: '100+ Years Combined',
+    text: 'A team with more than a century of combined control-engineering experience.',
+  },
+  {
+    icon: 'Droplets',
+    title: 'Water & Wastewater Specialists',
+    text: 'Deep expertise in lift stations, pump control, and municipal SCADA systems.',
+  },
+  {
+    icon: 'Cpu',
+    title: 'Platform-Agnostic',
+    text: 'Allen-Bradley, Siemens, Ignition, Wonderware — we build in your stack, not ours.',
+  },
+];
+
+// ---- Projects — PLACEHOLDERS. Replace with real Radiant projects. ---------
+// Every field marked [REPLACE] must be filled with real, permitted data before
+// launch. `placeholder: true` renders a labeled REPLACE badge + photo block.
+export const PROJECTS = [
+  {
+    id: 'proj-1',
+    title: '[REPLACE — Project name]',
+    customer: '[Client / municipality — if permitted]',
+    location: '[City, GA]',
+    category: 'Water Treatment',
+    scope: ['HMI upgrade', 'PLC modernization', 'SCADA integration'],
+    software: ['FactoryTalk View'],
+    equipment: ['Allen-Bradley ControlLogix'],
+    photo: null,
+    placeholder: true,
+    featured: true,
+  },
+  {
+    id: 'proj-2',
+    title: '[REPLACE — Project name]',
+    customer: '[Client / municipality — if permitted]',
+    location: '[City, GA]',
+    category: 'Wastewater',
+    scope: ['Lift station controls', 'Telemetry / radio', 'Pump alternation'],
+    software: ['Ignition SCADA'],
+    equipment: ['Allen-Bradley CompactLogix'],
+    photo: null,
+    placeholder: true,
+    featured: true,
+  },
+  {
+    id: 'proj-3',
+    title: '[REPLACE — Project name]',
+    customer: '[Client — if permitted]',
+    location: '[City, GA]',
+    category: 'Manufacturing',
+    scope: ['Control panel design', 'Electrical engineering', 'Commissioning'],
+    software: ['Studio 5000'],
+    equipment: ['VFDs, MCC'],
+    photo: null,
+    placeholder: true,
+    featured: true,
+  },
+  {
+    id: 'proj-4',
+    title: '[REPLACE — Project name]',
+    customer: '[Client — if permitted]',
+    location: '[City, GA]',
+    category: 'Power',
+    scope: ['SCADA integration', 'Communication integration'],
+    software: ['Wonderware InTouch'],
+    equipment: ['Modicon PLC'],
+    photo: null,
+    placeholder: true,
+  },
+  {
+    id: 'proj-5',
+    title: '[REPLACE — Project name]',
+    customer: '[Client — if permitted]',
+    location: '[City, GA]',
+    category: 'Aggregate',
+    scope: ['MCC design', 'Motor controls', 'Startup'],
+    software: ['Automation Direct'],
+    equipment: ['Soft starters, VFDs'],
+    photo: null,
+    placeholder: true,
+  },
+  {
+    id: 'proj-6',
+    title: '[REPLACE — Project name]',
+    customer: '[Client — if permitted]',
+    location: '[City, GA]',
+    category: 'Oil & Gas',
+    scope: ['Turnkey automation', 'System documentation'],
+    software: ['Siemens TIA Portal'],
+    equipment: ['Siemens S7'],
+    photo: null,
+    placeholder: true,
+  },
+];
+
 // ---- Navigation ----------------------------------------------------------
 export const NAV = [
   { label: 'Home', to: '/' },
@@ -343,12 +473,19 @@ export const NAV = [
     children: SERVICES.map((s) => ({ label: s.nav, to: `/${s.slug}` })),
   },
   {
-    label: 'Industries We Serve',
+    label: 'Industries',
     children: INDUSTRIES.map((i) => ({ label: i.nav, to: `/${i.slug}` })),
   },
-  { label: 'New Data Features', to: '/new-data' },
-  { label: 'Capability Statement', to: '/capability-statement' },
-  { label: 'Careers', to: '/careers' },
+  { label: 'Projects', to: '/projects' },
+  {
+    label: 'Resources',
+    children: [
+      { label: 'Capability Statement', to: '/capability-statement' },
+      { label: 'New Data Features', to: '/new-data' },
+      { label: 'Careers', to: '/careers' },
+      { label: 'Blog', to: '/blog' },
+    ],
+  },
 ];
 
 export const STATS = [
@@ -378,6 +515,15 @@ export const PLATFORMS = [
   'MCC Design',
 ];
 
+// Client / partner organizations — shown as styled text (not trademarked logos).
+export const CLIENTS = [
+  'Aditya Birla',
+  'SKF',
+  'Volkswagen',
+  'AMTECH Drives',
+  'Fulton County',
+];
+
 export const CLIENT_LOGOS = [
   { src: '/img/clients/logo1.jpg', alt: 'Client logo' },
   { src: '/img/clients/logo2.jpg', alt: 'Tesla' },
@@ -390,6 +536,7 @@ export const CERTS = [
   { src: '/img/certs/mbe.png', alt: 'MBE Certified' },
   { src: '/img/certs/dbe.jpg', alt: 'DBE Certified' },
   { src: '/img/certs/nmsdc.png', alt: 'NMSDC Minority Business Enterprise' },
+  { src: '/img/certs/sbsd.png', alt: 'Georgia SBSD Small Business Certified' },
 ];
 
 export const getService = (slug) => SERVICES.find((s) => s.slug === slug);

@@ -1,4 +1,3 @@
-import { CheckCircle2 } from 'lucide-react';
 import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 import TwoCol from '../components/TwoCol';
@@ -30,8 +29,8 @@ export default function ServicePage({ service }) {
       <PageHero
         title={service.title}
         subtitle={service.tagline}
-        image={service.image}
-        imagePlaceholder={service.imagePlaceholder}
+        image={service.heroImage || service.image}
+        imagePlaceholder={service.heroImage ? undefined : service.imagePlaceholder}
         crumbs={[{ name: service.title, path, last: true }]}
       />
 
@@ -70,7 +69,7 @@ export default function ServicePage({ service }) {
         text="Talk to a controls engineer about your process, timeline, and platform."
       />
 
-      <section className="section--grid">
+      <section className="section--muted bp-light">
         <div className="section container">
           <FaqAccordion faqs={service.faqs} title={`${service.title} — FAQ`} />
         </div>

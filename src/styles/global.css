@@ -108,22 +108,14 @@ strong {
   color: var(--on-navy-muted);
 }
 
-/* Blueprint hairline grid — dark grounds */
+/* Dark ground — soft gradient + subtle glow (no grid pattern) */
 .bp {
   position: relative;
-  background-color: var(--ink);
-  background-image:
-    linear-gradient(var(--blueprint) 1px, transparent 1px),
-    linear-gradient(90deg, var(--blueprint) 1px, transparent 1px);
-  background-size: 56px 56px;
+  background:
+    radial-gradient(110% 80% at 85% -15%, rgba(42, 160, 216, 0.2), transparent 55%),
+    radial-gradient(80% 70% at 0% 115%, rgba(242, 182, 50, 0.08), transparent 55%),
+    linear-gradient(155deg, var(--navy-900) 0%, var(--ink) 92%);
   overflow: hidden;
-}
-.bp::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(120% 80% at 80% -10%, rgba(42, 160, 216, 0.14), transparent 60%);
-  pointer-events: none;
 }
 .bp > * {
   position: relative;

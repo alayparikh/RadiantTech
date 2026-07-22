@@ -12,6 +12,7 @@ const groups = [
       { to: '/', label: 'Home' },
       { to: '/about-us', label: 'About Us' },
       { to: '/ceo-desk', label: 'CEO Desk' },
+      { to: '/projects', label: 'Projects' },
       { to: '/capability-statement', label: 'Capability Statement' },
       { to: '/new-data', label: 'New Data Features' },
       { to: '/careers', label: 'Careers' },

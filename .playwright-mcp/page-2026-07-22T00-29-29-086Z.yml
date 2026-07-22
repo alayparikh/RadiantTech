@@ -1,0 +1,214 @@
+- generic [ref=f8e2]:
+  - banner [ref=f8e3]:
+    - link "Skip to content" [ref=f8e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f8e5]:
+      - link "Radiant Control Systems home" [ref=f8e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=f8e7]
+      - link "(470) 915-0965" [ref=f8e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=f8e12]:
+        - link "Home" [ref=f8e13] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=f8e15] [cursor=pointer]
+        - button "Services" [ref=f8e19] [cursor=pointer]
+        - button "Industries" [ref=f8e23] [cursor=pointer]
+        - link "Projects" [ref=f8e26] [cursor=pointer]:
+          - /url: /projects
+        - button "Resources" [ref=f8e28] [cursor=pointer]
+        - link "Contact Us" [ref=f8e31] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f8e32]:
+    - generic [ref=f8e35]:
+      - navigation "Breadcrumb" [ref=f8e36]:
+        - link "Home" [ref=f8e37] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f8e38]: Field Service
+      - heading "Field Service" [level=1] [ref=f8e42]
+      - paragraph [ref=f8e43]: On-site training, commissioning, troubleshooting, and updates.
+    - generic [ref=f8e46]:
+      - generic [ref=f8e47]: Overview
+      - heading "Comprehensive on-site services" [level=2] [ref=f8e48]
+      - paragraph [ref=f8e49]: "Our on-site services encompass critical tasks that keep industrial automation systems running: training operators and maintenance personnel on PLC and SCADA systems, commissioning newly installed or upgraded systems, and troubleshooting complex issues swiftly."
+    - generic [ref=f8e52]:
+      - img "Field Service at Radiant Control Systems" [ref=f8e54]
+      - generic [ref=f8e55]:
+        - generic [ref=f8e56]: Capabilities
+        - heading "Comprehensive on-site services" [level=2] [ref=f8e57]
+        - generic [ref=f8e58]:
+          - paragraph [ref=f8e59]: "Field service covers the on-site work that keeps automation systems running: commissioning new installations, troubleshooting faults, training operators, and rolling out PLC/SCADA updates."
+          - list [ref=f8e60]:
+            - listitem [ref=f8e61]: On-site training
+            - listitem [ref=f8e62]: Commissioning
+            - listitem [ref=f8e63]: Troubleshooting
+            - listitem [ref=f8e64]: PLC/SCADA programming updates
+    - generic [ref=f8e66]:
+      - generic [ref=f8e67]:
+        - generic [ref=f8e68]: Let's build
+        - heading "Need field service for your facility?" [level=2] [ref=f8e69]
+        - paragraph [ref=f8e70]: Talk to a controls engineer about your process, timeline, and platform.
+      - generic [ref=f8e71]:
+        - link "Contact Us" [ref=f8e72] [cursor=pointer]:
+          - /url: /contact-us
+        - link "(470) 915-0965" [ref=f8e73] [cursor=pointer]:
+          - /url: tel:+14709150965
+    - generic [ref=f8e76]:
+      - heading "Field Service — FAQ" [level=2] [ref=f8e77]
+      - generic [ref=f8e79]:
+        - heading [level=3] [ref=f8e80]:
+          - button "Does Radiant provide on-site commissioning and support?" [expanded] [ref=f8e81] [cursor=pointer]
+        - region [ref=f8e84]:
+          - paragraph [ref=f8e85]: Yes. Radiant provides on-site training, commissioning, troubleshooting, and PLC/SCADA programming updates to keep systems reliable and current.
+    - generic [ref=f8e87]:
+      - generic [ref=f8e88]:
+        - generic [ref=f8e89]:
+          - generic [ref=f8e90]: Get in touch
+          - heading "Contact Us" [level=2] [ref=f8e91]
+          - paragraph [ref=f8e92]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=f8e93]:
+          - listitem [ref=f8e94]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=f8e99] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=f8e100]:
+            - link "(470) 915-0965" [ref=f8e104] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f8e105]:
+            - link "info@radiantcontrolsystems.com" [ref=f8e110] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=f8e111]:
+            - generic [ref=f8e116]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - generic [ref=f8e118]:
+        - generic [ref=f8e119]:
+          - generic [ref=f8e120]:
+            - generic [ref=f8e121]: Name
+            - textbox "Name" [ref=f8e122]
+          - generic [ref=f8e123]:
+            - generic [ref=f8e124]: Contact Number
+            - textbox "Contact Number" [ref=f8e125]
+        - generic [ref=f8e126]:
+          - generic [ref=f8e127]:
+            - generic [ref=f8e128]: Email
+            - textbox "Email" [ref=f8e129]
+          - generic [ref=f8e130]:
+            - generic [ref=f8e131]: Service
+            - combobox "Service" [ref=f8e132]:
+              - option "Select a service" [selected]
+              - option "Control Panels"
+              - option "PLC System Integration"
+              - option "HMI/SCADA Integration"
+              - option "Field Service"
+              - option "Other / Not sure"
+        - generic [ref=f8e133]:
+          - generic [ref=f8e134]: Message
+          - textbox "Message" [ref=f8e135]:
+            - /placeholder: Tell us about your project or challenge…
+        - button "Send a Message" [ref=f8e136] [cursor=pointer]
+  - contentinfo [ref=f8e140]:
+    - generic [ref=f8e141]:
+      - generic [ref=f8e142]:
+        - img "Radiant Control Systems" [ref=f8e143]
+        - paragraph [ref=f8e144]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=f8e145]:
+          - link "Facebook" [ref=f8e146] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f8e149] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=f8e153] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=f8e158]:
+        - heading "Services" [level=4] [ref=f8e159]
+        - list [ref=f8e160]:
+          - listitem [ref=f8e161]:
+            - link "Control Panels" [ref=f8e162] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=f8e163]:
+            - link "PLC System Integration" [ref=f8e164] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=f8e165]:
+            - link "HMI/SCADA Integration" [ref=f8e166] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=f8e167]:
+            - link "Field Service" [ref=f8e168] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=f8e169]:
+        - heading "Industries" [level=4] [ref=f8e170]
+        - list [ref=f8e171]:
+          - listitem [ref=f8e172]:
+            - link "Wastewater" [ref=f8e173] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=f8e174]:
+            - link "Aggregate" [ref=f8e175] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=f8e176]:
+            - link "Automobiles" [ref=f8e177] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=f8e178]:
+            - link "Logistics" [ref=f8e179] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=f8e180]:
+            - link "Food & Beverage" [ref=f8e181] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=f8e182]:
+            - link "Power Plant" [ref=f8e183] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=f8e184]:
+            - link "Oil & Gas" [ref=f8e185] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=f8e186]:
+            - link "Manufacturing" [ref=f8e187] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=f8e188]:
+        - heading "Company" [level=4] [ref=f8e189]
+        - list [ref=f8e190]:
+          - listitem [ref=f8e191]:
+            - link "About Us" [ref=f8e192] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f8e193]:
+            - link "CEO Desk" [ref=f8e194] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=f8e195]:
+            - link "Projects" [ref=f8e196] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f8e197]:
+            - link "Capability Statement" [ref=f8e198] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=f8e199]:
+            - link "New Data Features" [ref=f8e200] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=f8e201]:
+            - link "Careers" [ref=f8e202] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f8e203]:
+            - link "Blog" [ref=f8e204] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f8e205]:
+            - link "Contact Us" [ref=f8e206] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f8e207]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=f8e208]
+        - list [ref=f8e209]:
+          - listitem [ref=f8e210]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=f8e214] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=f8e215]:
+            - link "(470) 915-0965" [ref=f8e218] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f8e219]:
+            - link "info@radiantcontrolsystems.com" [ref=f8e223] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=f8e224]:
+          - img "MBE Certified" [ref=f8e225]
+          - img "DBE Certified" [ref=f8e226]
+          - img "NMSDC Minority Business Enterprise" [ref=f8e227]
+    - generic [ref=f8e228]:
+      - strong [ref=f8e230]: DBE & MBE Certified
+      - generic [ref=f8e231]: "GDOT Vendor ID: 19325"
+      - generic [ref=f8e232]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=f8e233]: "GMDC: AT249607"
+      - generic [ref=f8e234]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=f8e235]: "CAGE: 10NB0"
+      - generic [ref=f8e236]: "UEI: S5L4B99AGYX3"
+      - generic [ref=f8e237]: "E-Verify: 2293567"
+    - generic [ref=f8e238]: © 2026 Radiant Control Systems LLC. All rights reserved.
