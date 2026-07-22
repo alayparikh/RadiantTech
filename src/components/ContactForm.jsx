@@ -3,7 +3,7 @@ import { Send, CheckCircle2, Loader2 } from 'lucide-react';
 import { SERVICES } from '../data/site';
 import './ContactForm.css';
 
-const EMPTY = { name: '', phone: '', email: '', service: '', message: '' };
+const EMPTY = { name: '', phone: '', email: '', service: '', message: '', botcheck: '' };
 
 function validate(f) {
   const e = {};
@@ -35,6 +35,13 @@ export default function ContactForm() {
       document.querySelector(`[name="${first}"]`)?.focus();
       return;
     }
+    // Honeypot: real users never fill this; bots do. Silently drop.
+    if (form.botcheck) {
+      setStatus('sent');
+      setForm(EMPTY);
+      return;
+    }
+
     setStatus('sending');
     setErrors({});
 
@@ -56,6 +63,7 @@ export default function ContactForm() {
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
           access_key: accessKey,
+          botcheck: form.botcheck, // Web3Forms server-side honeypot
           subject: `New website enquiry — ${form.service || 'General'}`,
           from_name: 'Radiant Control Systems Website',
           name: form.name,
@@ -93,6 +101,17 @@ export default function ContactForm() {
 
   return (
     <form className="cform" onSubmit={submit} noValidate>
+      {/* Honeypot — hidden from users, catches bots */}
+      <input
+        type="text"
+        name="botcheck"
+        value={form.botcheck}
+        onChange={update}
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, opacity: 0 }}
+      />
       <div className="cform__row">
         <Field label="Name" name="name" value={form.name} onChange={update} error={errors.name} autoComplete="name" />
         <Field label="Contact Number" name="phone" type="tel" value={form.phone} onChange={update} error={errors.phone} autoComplete="tel" />

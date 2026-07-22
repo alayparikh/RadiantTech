@@ -1,0 +1,275 @@
+- generic [ref=f26e2]:
+  - banner [ref=f26e3]:
+    - link "Skip to content" [ref=f26e4] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=f26e5]:
+      - link "Radiant Control Systems home" [ref=f26e6] [cursor=pointer]:
+        - /url: /
+        - img "Radiant Control Systems" [ref=f26e7]
+      - link "(470) 915-0965" [ref=f26e8] [cursor=pointer]:
+        - /url: tel:+14709150965
+      - navigation "Primary" [ref=f26e12]:
+        - link "Home" [ref=f26e13] [cursor=pointer]:
+          - /url: /
+        - button "About Us" [ref=f26e15] [cursor=pointer]
+        - button "Services" [ref=f26e19] [cursor=pointer]
+        - button "Industries" [ref=f26e23] [cursor=pointer]
+        - link "Projects" [ref=f26e26] [cursor=pointer]:
+          - /url: /projects
+        - button "Resources" [ref=f26e28] [cursor=pointer]
+        - link "Contact Us" [ref=f26e31] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f26e32]:
+    - generic [ref=f26e35]:
+      - navigation "Breadcrumb" [ref=f26e36]:
+        - link "Home" [ref=f26e37] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f26e38]: Projects
+      - heading "Featured Projects" [level=1] [ref=f26e42]
+      - paragraph [ref=f26e43]: Control systems delivered for water, power, and industrial facilities across Georgia and the Southeast.
+    - generic [ref=f26e44]:
+      - generic [ref=f26e45]:
+        - generic [ref=f26e46]:
+          - generic [ref=f26e47]: "01"
+          - text: Selected work
+        - heading "Real systems, engineered to last" [level=2] [ref=f26e48]
+        - paragraph [ref=f26e49]: A sample of electrical engineering, PLC, SCADA, and control-panel projects. Each entry lists the scope, platforms, and equipment involved.
+      - generic [ref=f26e50]:
+        - generic [ref=f26e51]:
+          - img "Electrical Engineering & Electrical Drawings — Aditya Birla Plant" [ref=f26e52]
+          - generic [ref=f26e53]: Manufacturing
+        - generic [ref=f26e54]:
+          - generic [ref=f26e55]: Featured project
+          - heading "Electrical Engineering & Electrical Drawings — Aditya Birla Plant" [level=3] [ref=f26e56]
+          - paragraph [ref=f26e57]: Aditya Birla · Dalton, GA
+          - paragraph [ref=f26e61]: "Electrical engineering and electrical drawings for the Aditya Birla plant in Dalton, GA. The overall program spans four phases: (1) prepare drawings for the existing electrical systems on the North side of the plant, (2) supply the required parts, (3) develop field wiring drawings for the new layout — consolidating all electrical equipment into a single electrical house, and (4) perform the electrical installation. Radiant is currently delivering Phase 1 (Electrical Engineering); proposals for the remaining phases follow on completion."
+          - heading "Scope of services (Phase 1)" [level=4] [ref=f26e62]
+          - list [ref=f26e63]:
+            - listitem [ref=f26e64]: Identify all electrical devices on the North side of the plant
+            - listitem [ref=f26e68]: Document electrical connections and perform reverse engineering
+            - listitem [ref=f26e72]: Prepare detailed electrical drawings for the existing electrical devices
+    - generic [ref=f26e77]:
+      - generic [ref=f26e78]:
+        - generic [ref=f26e79]:
+          - generic [ref=f26e80]: "02"
+          - text: More work
+        - heading "Additional projects" [level=2] [ref=f26e81]
+        - paragraph [ref=f26e82]: Selected confidential engagements across water, wastewater, and manufacturing.
+      - generic [ref=f26e83]:
+        - generic [ref=f26e84]:
+          - generic [ref=f26e85]:
+            - img "Water Treatment SCADA Integration" [ref=f26e86]
+            - generic [ref=f26e87]: Water Treatment
+          - generic [ref=f26e88]:
+            - heading "Water Treatment SCADA Integration" [level=3] [ref=f26e89]
+            - paragraph [ref=f26e90]: "Client: Confidential · Georgia"
+            - generic [ref=f26e94]:
+              - generic [ref=f26e95]: Scope
+              - generic [ref=f26e96]:
+                - generic [ref=f26e97]: HMI upgrade
+                - generic [ref=f26e98]: PLC modernization
+                - generic [ref=f26e99]: SCADA integration
+            - generic [ref=f26e100]:
+              - generic [ref=f26e101]: Stack
+              - generic [ref=f26e102]:
+                - generic [ref=f26e103]: FactoryTalk View
+                - generic [ref=f26e104]: Allen-Bradley ControlLogix
+        - generic [ref=f26e105]:
+          - generic [ref=f26e106]:
+            - img "Lift Station Control Upgrade" [ref=f26e107]
+            - generic [ref=f26e108]: Wastewater
+          - generic [ref=f26e109]:
+            - heading "Lift Station Control Upgrade" [level=3] [ref=f26e110]
+            - paragraph [ref=f26e111]: "Client: Confidential · Georgia"
+            - generic [ref=f26e115]:
+              - generic [ref=f26e116]: Scope
+              - generic [ref=f26e117]:
+                - generic [ref=f26e118]: Lift station controls
+                - generic [ref=f26e119]: Telemetry / radio
+                - generic [ref=f26e120]: Pump alternation
+            - generic [ref=f26e121]:
+              - generic [ref=f26e122]: Stack
+              - generic [ref=f26e123]:
+                - generic [ref=f26e124]: Ignition SCADA
+                - generic [ref=f26e125]: Allen-Bradley CompactLogix
+        - generic [ref=f26e126]:
+          - generic [ref=f26e127]:
+            - img "Control Panel & MCC Build" [ref=f26e128]
+            - generic [ref=f26e129]: Manufacturing
+          - generic [ref=f26e130]:
+            - heading "Control Panel & MCC Build" [level=3] [ref=f26e131]
+            - paragraph [ref=f26e132]: "Client: Confidential · Georgia"
+            - generic [ref=f26e136]:
+              - generic [ref=f26e137]: Scope
+              - generic [ref=f26e138]:
+                - generic [ref=f26e139]: UL-508A panel design
+                - generic [ref=f26e140]: Electrical engineering
+                - generic [ref=f26e141]: Commissioning
+            - generic [ref=f26e142]:
+              - generic [ref=f26e143]: Stack
+              - generic [ref=f26e144]:
+                - generic [ref=f26e145]: Studio 5000
+                - generic [ref=f26e146]: VFDs, MCC
+    - generic [ref=f26e148]:
+      - generic [ref=f26e149]:
+        - generic [ref=f26e150]: Let's build
+        - heading "Have a project in mind?" [level=2] [ref=f26e151]
+        - paragraph [ref=f26e152]: Tell us about your facility, timeline, and platform — we'll scope it with you.
+      - generic [ref=f26e153]:
+        - link "Contact Us" [ref=f26e154] [cursor=pointer]:
+          - /url: /contact-us
+        - link "(470) 915-0965" [ref=f26e155] [cursor=pointer]:
+          - /url: tel:+14709150965
+    - generic [ref=f26e157]:
+      - generic [ref=f26e158]:
+        - generic [ref=f26e159]:
+          - generic [ref=f26e160]: Get in touch
+          - heading "Contact Us" [level=2] [ref=f26e161]
+          - paragraph [ref=f26e162]: Tell us about your process and we will help you specify the right control solution. Response within one business day.
+        - list [ref=f26e163]:
+          - listitem [ref=f26e164]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200 Duluth, GA 30097" [ref=f26e169] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+              - text: "6340 Sugarloaf Parkway, Suite # 200Duluth, GA 30097"
+          - listitem [ref=f26e170]:
+            - link "(470) 915-0965" [ref=f26e174] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f26e175]:
+            - link "info@radiantcontrolsystems.com" [ref=f26e180] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+          - listitem [ref=f26e181]:
+            - generic [ref=f26e186]: Mon–Fri, 8:00 AM – 5:00 PM ET
+      - generic [ref=f26e188]:
+        - generic [ref=f26e189]:
+          - generic [ref=f26e190]:
+            - generic [ref=f26e191]: Name
+            - textbox "Name" [ref=f26e192]
+          - generic [ref=f26e193]:
+            - generic [ref=f26e194]: Contact Number
+            - textbox "Contact Number" [ref=f26e195]
+        - generic [ref=f26e196]:
+          - generic [ref=f26e197]:
+            - generic [ref=f26e198]: Email
+            - textbox "Email" [ref=f26e199]
+          - generic [ref=f26e200]:
+            - generic [ref=f26e201]: Service
+            - combobox "Service" [ref=f26e202]:
+              - option "Select a service" [selected]
+              - option "Control Panels"
+              - option "PLC System Integration"
+              - option "HMI/SCADA Integration"
+              - option "Field Service"
+              - option "Other / Not sure"
+        - generic [ref=f26e203]:
+          - generic [ref=f26e204]: Message
+          - textbox "Message" [ref=f26e205]:
+            - /placeholder: Tell us about your project or challenge…
+        - button "Send a Message" [ref=f26e206] [cursor=pointer]
+  - contentinfo [ref=f26e210]:
+    - generic [ref=f26e211]:
+      - generic [ref=f26e212]:
+        - img "Radiant Control Systems" [ref=f26e213]
+        - paragraph [ref=f26e214]: Empowering Industry with Intelligent Control.
+        - generic "Social media" [ref=f26e215]:
+          - link "Facebook" [ref=f26e216] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f26e219] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "LinkedIn" [ref=f26e223] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/radiant-control-systems-llc
+      - navigation "Services" [ref=f26e228]:
+        - heading "Services" [level=4] [ref=f26e229]
+        - list [ref=f26e230]:
+          - listitem [ref=f26e231]:
+            - link "Control Panels" [ref=f26e232] [cursor=pointer]:
+              - /url: /control-panels
+          - listitem [ref=f26e233]:
+            - link "PLC System Integration" [ref=f26e234] [cursor=pointer]:
+              - /url: /plc-system-integration
+          - listitem [ref=f26e235]:
+            - link "HMI/SCADA Integration" [ref=f26e236] [cursor=pointer]:
+              - /url: /hmi-scada-integration
+          - listitem [ref=f26e237]:
+            - link "Field Service" [ref=f26e238] [cursor=pointer]:
+              - /url: /field-service
+      - navigation "Industries" [ref=f26e239]:
+        - heading "Industries" [level=4] [ref=f26e240]
+        - list [ref=f26e241]:
+          - listitem [ref=f26e242]:
+            - link "Wastewater" [ref=f26e243] [cursor=pointer]:
+              - /url: /wastewater-treatment
+          - listitem [ref=f26e244]:
+            - link "Aggregate" [ref=f26e245] [cursor=pointer]:
+              - /url: /aggregate
+          - listitem [ref=f26e246]:
+            - link "Automobiles" [ref=f26e247] [cursor=pointer]:
+              - /url: /automobiles
+          - listitem [ref=f26e248]:
+            - link "Logistics" [ref=f26e249] [cursor=pointer]:
+              - /url: /logistics
+          - listitem [ref=f26e250]:
+            - link "Food & Beverage" [ref=f26e251] [cursor=pointer]:
+              - /url: /food-beverage
+          - listitem [ref=f26e252]:
+            - link "Power Plant" [ref=f26e253] [cursor=pointer]:
+              - /url: /power-plant
+          - listitem [ref=f26e254]:
+            - link "Oil & Gas" [ref=f26e255] [cursor=pointer]:
+              - /url: /oil-gas
+          - listitem [ref=f26e256]:
+            - link "Manufacturing" [ref=f26e257] [cursor=pointer]:
+              - /url: /manufacturing
+      - navigation "Company" [ref=f26e258]:
+        - heading "Company" [level=4] [ref=f26e259]
+        - list [ref=f26e260]:
+          - listitem [ref=f26e261]:
+            - link "About Us" [ref=f26e262] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=f26e263]:
+            - link "CEO Desk" [ref=f26e264] [cursor=pointer]:
+              - /url: /ceo-desk
+          - listitem [ref=f26e265]:
+            - link "Projects" [ref=f26e266] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f26e267]:
+            - link "Capability Statement" [ref=f26e268] [cursor=pointer]:
+              - /url: /capability-statement
+          - listitem [ref=f26e269]:
+            - link "New Data Features" [ref=f26e270] [cursor=pointer]:
+              - /url: /new-data
+          - listitem [ref=f26e271]:
+            - link "Careers" [ref=f26e272] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=f26e273]:
+            - link "Blog" [ref=f26e274] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f26e275]:
+            - link "Contact Us" [ref=f26e276] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=f26e277]:
+        - heading "Radiant Control Systems LLC" [level=4] [ref=f26e278]
+        - list [ref=f26e279]:
+          - listitem [ref=f26e280]:
+            - 'link "6340 Sugarloaf Parkway, Suite # 200, Duluth, GA 30097" [ref=f26e284] [cursor=pointer]':
+              - /url: https://maps.app.goo.gl/5pU7gQYLf63gKn94A
+          - listitem [ref=f26e285]:
+            - link "(470) 915-0965" [ref=f26e288] [cursor=pointer]:
+              - /url: tel:+14709150965
+          - listitem [ref=f26e289]:
+            - link "info@radiantcontrolsystems.com" [ref=f26e293] [cursor=pointer]:
+              - /url: mailto:info@radiantcontrolsystems.com
+        - generic [ref=f26e294]:
+          - img "MBE Certified" [ref=f26e295]
+          - img "DBE Certified" [ref=f26e296]
+          - img "NMSDC Minority Business Enterprise" [ref=f26e297]
+          - img "Georgia SBSD Small Business Certified" [ref=f26e298]
+    - generic [ref=f26e299]:
+      - strong [ref=f26e301]: DBE & MBE Certified
+      - generic [ref=f26e302]: "GDOT Vendor ID: 19325"
+      - generic [ref=f26e303]: "NAICS: 541511, 541512, 541330"
+      - generic [ref=f26e304]: "GMDC: AT249607"
+      - generic [ref=f26e305]: "NIGP: 69031, 69032, 03125, 92040"
+      - generic [ref=f26e306]: "CAGE: 10NB0"
+      - generic [ref=f26e307]: "UEI: S5L4B99AGYX3"
+      - generic [ref=f26e308]: "E-Verify: 2293567"
+    - generic [ref=f26e309]: © 2026 Radiant Control Systems LLC. All rights reserved.

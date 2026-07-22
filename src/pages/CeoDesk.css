@@ -68,6 +68,27 @@
   color: var(--fg);
 }
 
+/* Boards section — photo + content */
+.ceo-boards {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: var(--space-6);
+  align-items: start;
+}
+.ceo-boards__media img,
+.ceo-boards__media .img-placeholder {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  object-fit: cover;
+}
+.ceo-boards__body h2 {
+  margin: 4px 0 var(--space-2);
+}
+.ceo-boards__body > p {
+  margin-bottom: var(--space-3);
+}
+
 @media (max-width: 800px) {
   .ceo {
     grid-template-columns: 1fr;
@@ -79,5 +100,11 @@
   }
   .ceo__skills {
     grid-template-columns: 1fr;
+  }
+  .ceo-boards {
+    grid-template-columns: 1fr;
+  }
+  .ceo-boards__media img {
+    max-width: 360px;
   }
 }

@@ -2,7 +2,6 @@ import Seo from '../components/Seo';
 import PageHero from '../components/PageHero';
 import Image from '../components/Image';
 import Reveal from '../components/Reveal';
-import { SectionHeading } from '../components/Blocks';
 import ContactSection from '../components/ContactSection';
 import { breadcrumbLd } from '../data/jsonld';
 import { COMPANY } from '../data/site';
@@ -87,12 +86,31 @@ export default function CeoDesk() {
 
       <section className="section--muted">
         <div className="section container">
-          <SectionHeading eyebrow="Community" title="Currently serving on the following boards" />
-          <ul className="ceo__boards">
-            {boards.map((b) => (
-              <Reveal as="li" key={b}>{b}</Reveal>
-            ))}
-          </ul>
+          <div className="ceo-boards">
+            <Reveal className="ceo-boards__media">
+              <Image
+                src="/img/brand/ceo-2.jpg"
+                alt="Tejas TJ Patwa, CEO of Radiant Control Systems"
+                width={520}
+                height={620}
+              />
+            </Reveal>
+            <Reveal className="ceo-boards__body" delay={80}>
+              <span className="eyebrow">Community &amp; leadership</span>
+              <h2>Currently serving on the following boards</h2>
+              <p>
+                Beyond the plant floor, TJ stays deeply engaged with the community and
+                industry across Georgia and beyond — bringing the same commitment and
+                leadership to civic and professional organizations that he brings to
+                Radiant's projects.
+              </p>
+              <ul className="ceo__boards">
+                {boards.map((b) => (
+                  <Reveal as="li" key={b}>{b}</Reveal>
+                ))}
+              </ul>
+            </Reveal>
+          </div>
         </div>
       </section>
 
